@@ -22,4 +22,85 @@
 ## Assessment Criteria  
 - **Technical**: Correct material use, adherence to negotiation protocols  
 - **Ethical**: Respect for emerging boundaries, aftercare initiation  
-- **Emotional**: Student-reported sense of agency during play
+- **Emotional**: Student-reported sense of agency during play  
+
+---
+
+## Case Studies: Real-World Sensation Play Scenarios
+
+### Case Study 1: Accidental Skin Damage During Temperature Play
+
+A practitioner applied an ice pack to a participant's back during temperature play, unaware that the participant had reduced circulation from prior medication. The ice caused temporary numbness, leading the participant to unknowingly allow deeper pressure on a sensitive area. The ice pack was later left in place too long, resulting in frostbite.
+
+**Learning Points:**
+- Always warm up skin before cold application
+- Establish pre-agreed temperature duration limits
+- Require partner check-ins during temperature play
+
+### Case Study 2: Sensation Deprivation Overload
+
+A group activity combined blindfolding with tickling without prior safety negotiation. One participant with sensory processing sensitivities experienced overwhelming tactile input, leading to a panic attack.
+
+**Learning Points:**
+- Mandatory safety negotiation before sensory deprivation
+- Start with lowest intensity even for experienced participants
+- Have non-restrictive safewords for deprivation play
+
+### Case Study 3: Hypersensitivity to Vibration
+
+A participant with nerve damage suffered pain from a vibrating implement that others found pleasurable. The instructor failed to adjust intensity despite warnings.
+
+**Learning Points:**
+- Begin vibration at lowest intensity (1-2/10 vibration) regardless of partner's history
+- Monitor for "tingling" as warning sign before pain
+- Keep non-vibrating implements as alternatives
+
+---
+
+## Optional Deep Dive: Tactile Discrimination Quiz
+
+**Match the material to its appropriate use case:**
+
+1. Silk ribbon 
+   A) For hypo-sensitive participants
+   B) For hyper-sensitive participants
+   C) For temperature play
+   D) For vibration play
+
+2. Rubber paddle 
+   A) For building proprioceptive awareness
+   B) For gentle friction
+   C) For high-impact sensation
+   D) For vibration play
+
+3. Vibrating jade egg 
+   A) For hyposensitive learners
+   B) For hypersensitive participants
+   C) For temperature contrast
+   D) For impact play
+
+**Answers:** 1-B, 2-B, 3-B
+
+---
+
+## Temperature Safety Enhancement (Optional Deep Dive)
+
+### Temperature Play Risk Assessment Checklist
+
+- [ ] Confirm heat/cold limits agreed in negotiation
+- [ ] Warm skin for 2+ minutes before cold application
+- [ ] Avoid direct contact with fragile skin areas
+- [ ] Have warm compress ready for aftercare
+- [ ] Use barriers (e.g., towels) for extreme temperatures
+
+### Emotional Mapping Worksheet (Optional Deep Dive)
+
+**Rate your emotional response to these sensations (1-10 scale):**
+
+| Sensation | Physical Feel | Emotional Impact |
+|-----------|---------------|------------------|
+| Light silk friction | Tingling warmth | Comfort/anxious |
+| Rubber paddle press | Thud with aftershock | Pleasure/intense |
+| Cold patch on back | Numb then tingly | Shock/calm |
+
+This self-assessment helps build somatic awareness during play.
