@@ -1,0 +1,68 @@
+name: Weekly Module Validation
+
+on:
+  schedule:
+    - cron: '0 0 * * 0'  # Every Sunday at midnight UTC
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  validation:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          # Install Python dependencies
+          pip install --quiet pyyaml  # if validation script uses YAML
+
+          # Install Node.js packages
+          npm ci markdown-link-check@3.12.0 axe-core@4.8.0
+
+      - name: Run module validation
+        id: python-validation
+        run: python3 scripts/validation/validate_structure.py --modules-dir content/modules
+        env:
+          MODULES_DIR: content/modules
+
+      - name: Run link checking
+        id: link-check
+        run: |
+          npx markdown-link-check content/modules/**/*.md --config .markdown-link-check.json || true
+          if [ $? -ne 0 ]; then echo "Link check failures found"; exit 1; fi
+
+      - name: Run accessibility audit
+        id: accessibility-check
+        run: |
+          npx axe content/modules/**/*.md --accessibility-ruledecision --error-count 0 || true
+          if [ $? -ne 0 ]; then echo "Accessibility violations found"; exit 1; fi
+
+      - name: Upload validation log
+        uses: actions/upload-artifact@v4
+        with:
+          name: weekly-validation-log
+          path: |  # Combine all logs/results
+            python-validation.log
+            link-check.log
+            accessibility-check.log
+          retention-days: 30
+
+      - name: Fail if any validation fails
+        if: failure()
+        run: echo "::error::Validation workflow found failures"
+
+      - name: Success notification
+        if: success()
+        run: echo "Weekly validation completed successfully"
