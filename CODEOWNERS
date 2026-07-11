@@ -1,0 +1,73 @@
+# CODEOWNERS
+# This file defines repository ownership for automatic review assignments and permissions.
+# Format: <pattern> <owner1> <owner2> ...
+# Reference: https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository#specifying-a-github-national-representative
+
+# Project Leadership
+*                               @elijah @accessibility-champion
+
+# Core Documentation & Content
+README.md                       @project-lead
+CONTRIBUTING.md                 @project-lead
+CODE_OF_CONDUCT.md              @project-lead
+CHANGELOG.md                    @project-lead
+
+# Documentation System
+docs/                          @docs-lead
+*.md                           @docs-lead
+
+# Development Workflows
+.github/                      @devops-lead
+*.yml                         @devops-lead
+*.yaml                        @devops-lead
+
+# Module Core Teams (These are "submodules" for content development)
+modules/core-essentials/     @core-essentials-team
+modules/safety-protocols/   @safety-team
+modules/instructor-resources/ @education-team
+modules/participant-materials/ @participants-team
+
+# Critical Infrastructure & Architecture
+.gitignore                    @devops-lead
+.github/workflows/          @devops-lead
+
+# Legacy Superpowers Module (Hand-off configuration)
+modules/superpowers/         @superpowers-team
+
+# Regional Representatives
+modules/regional/*           @region-leader
+
+# Community Contributions Repo Owner (indicates this repo owns creator)
+.pyproject                        @elijah
+
+# Models & Training Resources
+models/                        @modeling-team
+
+training/                     @education-team
+
+# Zero Maintenance Items
+README.md                      @project-lead
+
+# ----------------------------------------
+# REVIEW CLARIFICATIONS
+# ----------------------------------------
+
+# For sensitive or high-impact changes, review cycle is extended:
+# - Critical security updates: 48 hours minimum review
+# - Content changes affecting safety protocols: 24 hours minimum review
+# - Accessibility changes: 24 hours minimum review + accessibility testing
+
+# "Virtual Owners" - Team representatives for specific content areas:
+# These users appear when a PR touches their domain, but don't own all changes:
+
+# Accessibility virtual owners (for accessibility PRs):
+modules/ || *.md                @accessibility-champion
+
+# Safety virtual owners (for safety protocol changes):
+modules/safety-protocols/   @safety-lead
+
+# Community outreach (for PR ecosystem changes):
+.github/ || docs/ || CONTRIBUTING.md    @community-manager
+
+# Edge case: When no owner matches, defaults to project-lead team
+# This ensures all changes get reviewed even if pattern matching fails
