@@ -1,0 +1,23 @@
+{
+  "replacementPatterns": [
+    {
+      "pattern": "^\\./",
+      "replacement": "https://github.com/elijah/vault-handbook/blob/master/"
+    },
+    {
+      "pattern": "^\\.\\./",
+      "replacement": "https://github.com/elijah/vault-handbook/blob/master/"
+    }
+  ],
+  "ignorePatterns": [
+    "^https?://localhost",
+    "^https?://127\\.0\\.0\\.1",
+    "^mailto:",
+    "^tel:",
+    "^#"
+  ],
+  "aliveStatusCodes": [200, 206],
+  "retryCount": 3,
+  "retryDelayMs": 1000,
+  "timeoutMs": 10000
+}
