@@ -23,6 +23,23 @@
 - **During Session**: Real-time safety monitoring, inclusive check-ins, adaptive scaling protocols
 - **Post-Session**: Extended aftercare planning, cultural integration, neurodivergent recovery protocols
 
+## Visual Assessment Tools (NEW)
+
+### Equipment Inspection Visual Flowchart Integration
+**Mermaid.js Flowchart References for Practical Assessment:**
+- **Carabiner Safety**: `diagrams/carabiner-inspection.js` - Gate operation, alignment, spine integrity, weight rating validation
+- **Rope Wear Identification**: `diagrams/rope-wear.js` - Sheath check, tactile soft-spot detection, core uniformity flex test
+- **Hardware & Anchor Points**: `diagrams/hardware-inspection.js` - 10x load rating, corrosion/cracks, mounting security, connection hardware
+- **Scene Layout Protocol**: `diagrams/layout-diagram.js` - Inspection zone → Scene setup → Emergency access flow
+
+### Visual Assessment Scoring Rubric
+| Visual Tool | Assessment Criteria | Points (1-5) | Notes |
+|-------------|---------------------|--------------|-------|
+| Carabiner Flowchart | Correct decision path identification | | Must identify REJECT conditions at each node |
+| Rope Wear Diagram | Accurate visual/tactile assessment sequence | | Proper sheath→core progression required |
+| Hardware Inspection | Complete anchor-to-connection validation | | 10x load rating + corrosion check mandatory |
+| Scene Layout | Zone progression verification | | Inspection→Setup→Emergency flow required |
+
 ## Enhanced Testing Materials
 
 ### Written Knowledge Test Question Bank
@@ -32,12 +49,16 @@
 - Disability-inclusive adaptation strategies (mobility, chronic pain, cognitive diversity)
 - Cultural humility in kink education (de-colonization, community partnership, historical trauma)
 - Universal design principles for inclusive kink spaces
+- **Visual Safety Assessment**: Interpretation of equipment inspection flowcharts (carabiner, rope, hardware)
+- **Visual Layout Protocols**: Understanding scene setup zones and emergency access requirements
 
 **Case Study Analysis Scenarios**
 - **Scenario A**: Neurodivergent participant experiencing sensory overload during temperature play
 - **Scenario B**: Cross-cultural consent negotiation (significant cultural difference from dominant norms)
 - **Scenario C**: Disability accommodation challenges in group setting
 - **Scenario D**: Intersectional microaggressions in community education
+- **Scenario E**: Visual assessment interpretation - using flowchart to identify equipment rejection criteria
+- **Scenario F**: Designing accessible scene layouts for participants with mobility considerations
 
 ### Practical Skills Assessment Scenarios
 
@@ -45,12 +66,19 @@
 - Multi-implement inspection (floggers, canes, paddles, rope, suspension equipment)
 - Safety zone identification and application (including neurodivergent considerations)
 - Adaptive device use (with participants who have different accessibility needs)
+- **Visual Assessment Demonstrations**: 
+  - Perform carabiner inspection using flowchart decision points
+  - Conduct rope wear evaluation following visual/tactile sequence
+  - Execute hardware inspection with 10x load rating verification
+  - Demonstrate proper scene layout zoning (inspection→setup→emergency)
 
 **Inclusive Teaching Demonstrations**
 - Facilitation of diverse communication systems (visual, tactile, digital, sign)
 - Adaptation of consent negotiation for neurodivergent participants
 - Cultural humility in knowledge sharing and skill demonstration
 - Universal design implementation in hands-on activities
+- **Visual Tool Integration**: Demonstrating use of Mermaid.js flowcharts for equipment safety briefings
+- **Accessible Visual Design**: Creating high-contrast, tactile-enhanced versions of safety diagrams
 
 ### Innovation Project: Inclusive Consent Workshop Design
 **Requirements:**
@@ -59,6 +87,7 @@
 - Include multi-modal consent materials (visual, written, tactile, digital)
 - Document cultural humility applications throughout
 - Present potential challenges and solutions
+- **Enhanced Requirement**: Incorporate at least one visual safety assessment tool (flowchart) into workshop materials
 
 ## Enhanced Feedback Forms
 
