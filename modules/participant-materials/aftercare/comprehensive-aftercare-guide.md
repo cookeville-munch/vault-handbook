@@ -14,7 +14,7 @@
 - **Transition Phase (30-90 min)**:
   - Gradual environmental reorientation
   - Emotional de-escalation protocols
-  - Check-in about ongoing needs
+- **Check-in about ongoing needs**
 
 ### 1.2 Aftercare Modalities by Sensation Type
 - **Impact Play Aftercare**:
@@ -141,3 +141,54 @@
   - Referral system for therapists
   - Medical professional consultation pathways
   - Crisis intervention protocols
+
+---
+
+## 6. Inclusive Aftercare Adaptations
+
+### 6.1 Neurodivergent-Affirming Aftercare
+- **Sensory Regulation Options**:
+  - Multiple sensory regulation options (weighted blankets, compression garments, fidget tools)
+  - Allow extended processing periods without pressure to "snap back"
+  - Offer alternative communication methods (AAC devices, typing, gestures)
+- **Cognitive Load Management**:
+  - Break aftercare steps into small, numbered actions
+  - Provide visual flowcharts for aftercare procedures
+  - Give advanced notice of all steps in aftercare sequence
+- **Executive Function Supports**:
+  - Provide printable checklists for aftercare steps
+  - Include timeline visualizations for recovery processes
+  - Offer milestone celebration markers for recovery milestones
+
+### 6.3 Inclusive Communication Frameworks
+- **Multimodal Check-Ins**:
+  - Number scales (1-5, 1-10) with visual representation
+  - Color-coded emotional check-in cards
+  - Tactile response systems (fidget tokens, squeeze balls)
+  - AAC device compatibility for non-verbal participants
+- **Processing Time Guarantees**:
+  - Minimum 15-second pause after complex questions
+  - Offer multiple response options (verbal, written, gesture)
+  - Provide example responses for clarity
+
+## 7. Community Support and Resource Sharing
+
+### 7.1 Resource Library Expansion
+- **Multilingual Materials**: Spanish, ASL video adaptations, Mandarin translations
+- **Alternative Format Creation**: Braille documents, tactile models
+- **Accessibility Audits**: Regular review of all published materials
+- **Community Translation Projects**: Volunteer-driven translations
+
+### 7.2 Peer Mentorship Matching
+- **Skill-Based Pairing**: Match experienced practitioners with newcomers based on shared needs
+- **Mentor Rotation System**: Rotate mentors to ensure diverse perspective exposure
+- **Feedback Circle**: Structured peer feedback sessions focused on inclusivity growth
+
+---
+
+This updated guide now incorporates neurodivergent-affirming practices, disability accommodations, and culturally humble approaches. The additions emphasize flexibility, accessibility, and community-centered care.
+
+*Last Updated: 2026-07-10*
+*Version: 2.0*
+*Curated by: Education Committee*
+*License: CC-BY-SA 4.0*
