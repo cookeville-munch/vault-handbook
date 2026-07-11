@@ -302,3 +302,181 @@ This comprehensive equipment inspection framework ensures practitioner safety th
    - Minimum 80% of recurring issues addressed within 2 weeks
    - Documentation of all changes made
    - Verification of fix effectiveness after 3+ sessions
+
+---
+
+## Instructor Role Enhancement
+
+**Purpose:** Provide structured guidance for instructors to develop their teaching practice and contribute to curriculum evolution.
+
+### 1. Structured Reflection Exercises
+
+#### Monthly Teaching Reflection Template
+```
+Date: _______________
+Session Focus: _______________
+Participants: _____ (number) | Demographics: _______________
+
+What Went Well:
+1. _________________________________________________
+2. _________________________________________________
+3. _________________________________________________
+
+Areas for Growth:
+1. _________________________________________________
+2. _________________________________________________
+3. _________________________________________________
+
+Participant Feedback Themes:
+- _________________________________________________
+- _________________________________________________
+
+Inclusive Practice Notes:
+- Neurodivergent accommodations used: _______________
+- Disability adaptations implemented: _______________
+- Cultural humility moments: _______________________
+
+Action Items for Next Month:
+1. _________________________________________________
+2. _________________________________________________
+3. _________________________________________________
+
+Self-Care Check: 
+☐ Debriefed with colleague  ☐ Personal aftercare completed  ☐ Boundary maintenance
+```
+
+#### Quarterly Deep-Dive Reflection
+- **Teaching Philosophy Evolution**: How has your approach to impact play instruction changed?
+- **Inclusive Practice Assessment**: Which communities are you serving well? Which need more attention?
+- **Safety Protocol Evolution**: What new safety insights have you integrated?
+- **Community Contribution**: How have you shared knowledge beyond your immediate classroom?
+
+### 2. Professional Development Pathways
+
+#### Skill Acquisition Roadmap
+| Level | Focus Areas | Required Activities | Timeline |
+|-------|-------------|---------------------|----------|
+| **Novice Instructor** | Core technique delivery, basic safety | Observe 5 sessions, co-teach 3, complete safety certification | 0-6 months |
+| **Developing Instructor** | Adaptive teaching, inclusive practices | Lead 10 sessions, complete neurodivergent/disability training | 6-18 months |
+| **Experienced Instructor** | Curriculum design, mentorship | Develop 1 module, mentor 2 novices, publish case study | 18-36 months |
+| **Master Instructor** | Program leadership, community building | Lead instructor training, shape program policy, keynote | 36+ months |
+
+#### Continuing Education Requirements
+- **Annual**: Complete 1 inclusive teaching workshop, 1 safety protocol update
+- **Biennial**: Peer observation exchange, community conference presentation
+- **Ongoing**: Monthly skill practice with peer feedback, quarterly literature review
+
+### 3. Curriculum Development Tools
+
+#### Module Design Framework
+```
+Module Title: ____________________________________
+Target Audience: ________________________________
+Prerequisites: __________________________________
+Learning Objectives (SMART):
+1. _____________________________________________
+2. _____________________________________________
+3. _____________________________________________
+
+Inclusive Design Checklist:
+☐ Multiple learning modalities (visual, auditory, kinesthetic, reading)
+☐ Neurodivergent accommodations built-in
+☐ Disability adaptations specified
+☐ Cultural humility integrated
+☐ Language accessibility considered
+☐ Assessment options varied
+
+Session Breakdown:
+Session 1: ____________________________________
+Session 2: ____________________________________
+...
+
+Assessment Plan:
+- Formative: ___________________________________
+- Summative: __________________________________
+- Inclusive options: ___________________________
+
+Resources Needed:
+- Equipment: __________________________________
+- Materials: ___________________________________
+- Space requirements: _________________________
+```
+
+#### Peer Review Protocol
+1. **Pre-Review**: Author completes self-assessment using rubric
+2. **Review Pairing**: Two reviewers (different experience levels, diverse backgrounds)
+3. **Review Meeting**: 60-minute structured discussion using feedback framework
+4. **Revision Cycle**: Author implements changes within 2 weeks
+5. **Final Approval**: Lead instructor signs off before publication
+
+#### Community Knowledge Sharing Platform
+- **Monthly Curriculum Circle**: 90-minute session for sharing innovations
+- **Annual Curriculum Summit**: Full-day event with presentations, workshops, planning
+- **Digital Repository**: Version-controlled module library with contributor attribution
+- **Mentorship Pairing**: Structured pairing for new module development
+
+#### Continuing Education Requirements
+- **Annual**: Complete 1 inclusive teaching workshop, 1 safety protocol update
+- **Biennial**: Peer observation exchange, community conference presentation
+- **Ongoing**: Monthly skill practice with peer feedback, quarterly literature review
+
+### 3. Curriculum Development Tools
+
+#### Module Design Framework
+```
+Module Title: ____________________________________
+Target Audience: ________________________________
+Prerequisites: __________________________________
+Learning Objectives (SMART):
+1. _____________________________________________
+2. _____________________________________________
+3. _____________________________________________
+
+Inclusive Design Checklist:
+☐ Multiple learning modalities (visual, auditory, kinesthetic, reading)
+☐ Neurodivergent accommodations built-in
+☐ Disability adaptations specified
+☐ Cultural humility integrated
+☐ Language accessibility considered
+☐ Assessment options varied
+
+Session Breakdown:
+Session 1: ____________________________________
+Session 2: ____________________________________
+...
+
+Assessment Plan:
+- Formative: ___________________________________
+- Summative: __________________________________
+- Inclusive options: ___________________________
+
+Resources Needed:
+- Equipment: __________________________________
+- Materials: ___________________________________
+- Space requirements: _________________________
+```
+
+#### Peer Review Protocol
+1. **Pre-Review**: Author completes self-assessment using rubric
+2. **Review Pairing**: Two reviewers (different experience levels, diverse backgrounds)
+3. **Review Meeting**: 60-minute structured discussion using feedback framework
+4. **Revision Cycle**: Author implements changes within 2 weeks
+5. **Final Approval**: Lead instructor signs off before publication
+
+#### Community Knowledge Sharing Platform
+- **Monthly Curriculum Circle**: 90-minute session for sharing innovations
+- **Annual Curriculum Summit**: Full-day event with presentations, workshops, planning
+- **Digital Repository**: Version-controlled module library with contributor attribution
+- **Mentorship Pairing**: Structured pairing for new module development
+
+---
+
+**Implementation Status:** ✅ All enhancement tasks complete
+
+**Module Summary:**
+- ✅ Equipment Inspection & Safety Zone Quick-Reference
+- ✅ Progressive Learning Pathway with Visual Milestones
+- ✅ Error Correction Integration with Taxonomy & Protocols
+- ✅ Instructor Role Enhancement with Reflection, Development & Curriculum Tools
+
+**Total Module Length:** ~400+ lines of comprehensive, inclusive content
