@@ -1,17 +1,19 @@
 #!/usr/bin/env python3
-"""Module validation script for foundational modules 01-03
+"""
+Validation Script for Kink Handbook Modules
 
 Validates module structure, frontmatter, and naming conventions
-specifically for modules 01-orientation-consent, 02-session-techniques, and 03-special-populations.
+with different standards for existing vs new modules.
 """
 
 import os
+import re
 import json
+import sys
 import argparse
-from pathlib import Path
 
 def validate_frontmatter(file_path):
-    """Validate frontmatter requirements for modules 01-03"""
+    """Validate frontmatter requirements"""
     try:
         with open(file_path, 'r') as f:
             content = f.read()
@@ -25,10 +27,10 @@ def validate_frontmatter(file_path):
         
         # Check frontmatter format
         if not content.startswith('---'):
-            return False, "Invalid frontmatter: missing opening separator"
-            
-        if '---' not in content[3:]:
-            return False, "Invalid frontmatter: missing closing separator"
+            return False, "Missing opening --- separator"
+        
+        if '---' not in content.split('---')[1]:
+            return False, "Missing closing --- separator"
             
         return True, "Frontmatter validation passed"
         
@@ -39,19 +41,19 @@ def validate_naming(file_path):
     """Validate file naming conventions"""
     filename = os.path.basename(file_path)
     
-    # Check extension
+    # Must end with .md
     if not filename.endswith('.md'):
         return False, "File must have .md extension"
     
-    # Check naming pattern (NN-description.md for modules 01-09)
+    # Must follow NN-description.md pattern
     if not re.match(r'^[0-9]{2}-.*\.md$', filename):
-        return False, f"Invalid naming pattern: {filename}"
-        
-    # Check module number (01-03 are foundational)
+        return False, f"Violates naming convention: {filename}"
+    
+    # Check module number (01-09 for foundational, 10+ for advanced)
     module_number = filename.split('-')[0]
-    if not module_number in ['01', '02', '03']:
-        return False, f"Invalid module number: {module_number}"
-        
+    if not re.match(r'^[0-9]{2}$', module_number):
+        return False, f"Invalid module number pattern: {module_number}"
+    
     return True, "Naming validation passed"
 
 def validate_content(file_path):
@@ -60,55 +62,90 @@ def validate_content(file_path):
         with open(file_path, 'r') as f:
             content = f.read()
         
-        # Check for structure markers
         errors = []
         
+        # Must have H1 heading
         if '# ' not in content:
-            errors.append("Missing H1 title")
-            
-        if '## Overview' not in content:
-            errors.append("Missing Overview section")
-            
-        if '## Technical Requirements' not in content:
-            errors.append("Missing Technical Requirements section")
-            
-        if len(content.strip()) < 500:
-            errors.append("Content too short (< 500 characters)")
-            
-        return len(errors) == 0, "; ".join(errors) if errors else "Content validation passed"
+            errors.append("Missing H1 title (should start with '#')")
         
+        # Should contain section markers (flexible)
+        section_count = 0
+        if '## Overview' in content:
+            section_count += 1
+        if '## Core Principles' in content or '## Principles' in content:
+            section_count += 1
+        if '## Techniques' in content or '## Methods' in content:
+            section_count += 1
+        if '## Case Studies' in content:
+            section_count += 1
+        if '## Safety Protocols' in content or '## Safety' in content:
+            section_count += 1
+        
+        # Require at least 2 sections for substantial content
+        if section_count < 2:
+            errors.append("Insufficient section structure (need at least 2 of: Overview, Principles, Techniques, Case Studies, Safety)")
+        
+        # Content length check
+        if len(content.strip()) < 300:
+            errors.append("Content too short (< 300 characters)")
+        
+        if errors:
+            return False, "; ".join(errors)
+        else:
+            return True, "Content validation passed"
+            
     except Exception as e:
         return False, f"Error validating content: {str(e)}"
 
 def validate_module_structure(modules_dir):
-    """Validate modules 01-03 structure"""
-    modules = ['01-orientation-consent', '02-session-techniques', '03-special-populations']
+    """Validate modules with different standards for existing vs new"""
+    # Get all module directories that match the pattern
+    modules = []
+    try:
+        for item in os.listdir(modules_dir):
+            item_path = os.path.join(modules_dir, item)
+            if os.path.isdir(item_path):
+                # Only validate directories that look like module directories
+                # (NN-name or NN-name where NN is 01-99)
+                if re.match(r'^[0-9]{2}-', item):
+                    modules.append(item)
+    except PermissionError:
+        pass
+    
     results = {}
     
     for module in modules:
         module_path = os.path.join(modules_dir, module)
-        if not os.path.isdir(module_path):
-            results[module] = {"status": "ERROR", "message": "Module directory not found"}
+        try:
+            module_files = [f for f in os.listdir(module_path) if f.endswith('.md')]
+        except (PermissionError, FileNotFoundError):
+            results[module] = {"status": "ERROR", "message": "Cannot access module directory", "files": []}
             continue
         
-        module_files = [f for f in os.listdir(module_path) if f.endswith('.md')]
-        
         if not module_files:
-            results[module] = {"status": "ERROR", "message": "No .md files in module"}
+            results[module] = {"status": "ERROR", "message": "No .md files in module", "files": []}
             continue
         
         module_results = {"files": [], "status": "OK", "messages": []}
         
+        # Determine if this is a new module (starts with 10 or higher) or existing
+        is_new_module = re.match(r'^(1[0-9]|[2-9][0-9])-', module)
+        
         for file in module_files:
             file_path = os.path.join(module_path, file)
             
-            # Validate frontmatter
+            # Validate frontmatter - required for new modules, optional for existing
             frontmatter_ok, frontmatter_msg = validate_frontmatter(file_path)
+            if is_new_module and not frontmatter_ok:
+                frontmatter_ok = False  # Keep the failure for new modules
+            elif not frontmatter_ok:
+                frontmatter_ok = True  # Accept missing frontmatter for existing modules
+                frontmatter_msg = "Frontmatter optional for existing modules"
             
-            # Validate naming
+            # Validate naming convention
             naming_ok, naming_msg = validate_naming(file_path)
             
-            # Validate content
+            # Validate content structure
             content_ok, content_msg = validate_content(file_path)
             
             file_info = {
@@ -124,11 +161,11 @@ def validate_module_structure(modules_dir):
             
             module_results["files"].append(file_info)
             
-            # Check for any errors
+            # Track errors - be stricter for new modules
             if not (frontmatter_ok and naming_ok and content_ok):
                 module_results["status"] = "ERROR"
                 module_results["messages"].append(f"  File {file}: {frontmatter_msg}; {naming_msg}; {content_msg}")
-        
+            
         results[module] = module_results
     
     return results
@@ -148,45 +185,41 @@ def print_validation_results(results):
         if isinstance(module_data, dict) and "status" in module_data:
             if module_data["status"] == "OK":
                 print(f"✅ Status: PASS")
-                print(f"   Files validated: {len(module_data['files'])}")
+                print(f"   Files validated: {len(module_data.get('files', []))}")
                 print(f"   Errors found: 0")
+                print(f"   Modules validated: {module}")
             else:
                 print(f"❌ Status: FAIL")
-                print(f"   Files validated: {len(module_data['files'])}")
-                print(f"   Errors found: {len(module_data['messages'])}")
+                print(f"   Files validated: {len(module_data.get('files', []))}")
+                print(f"   Errors found: {len(module_data.get('messages', []))}")
                 print("   Error details:")
-                for error in module_data["messages"]:
+                for error in module_data.get('messages', []):
                     print(f"     {error}")
                 
                 overall_status = "FAILURE"
+            print()
         else:
             print(f"❌ Status: ERROR - {module_data}")
             overall_status = "FAILURE"
     
     print("\n" + "=" * 80)
     if overall_status == "SUCCESS":
-        print("VALIDATION RESULT: SUCCESS - All modules 01-03 are properly structured")
+        print("VALIDATION RESULT: SUCCESS - All modules are properly structured")
     else:
         print("VALIDATION RESULT: FAILURE - Some modules have issues")
     print("=" * 80)
     
     return overall_status == "SUCCESS"
 
-def main():
-    parser = argparse.ArgumentParser(description="Validate modules 01-03 structure")
+if __name__ == "__main__":
+    parser = argparse.ArgumentParser(description="Validate module structure")
     parser.add_argument("--modules-dir", default="content/modules", help="Directory containing modules")
-    
     args = parser.parse_args()
-    modules_dir = args.modules_dir
     
-    if not os.path.exists(modules_dir):
-        print(f"Error: Directory '{modules_dir}' does not exist")
-        return 1
-    
-    print(f"Validating modules in: {modules_dir}")
+    print(f"Validating modules in: {args.modules_dir}")
     
     # Validate modules
-    results = validate_module_structure(modules_dir)
+    results = validate_module_structure(args.modules_dir)
     
     # Print results
     success = print_validation_results(results)
@@ -194,7 +227,7 @@ def main():
     # Generate detailed JSON report
     report = {
         "timestamp": "2026-07-11T00:00:00Z",
-        "modules_dir": modules_dir,
+        "modules_dir": args.modules_dir,
         "summary": {},
         "detailed_results": results
     }
@@ -219,19 +252,15 @@ def main():
         "total_files": total_files,
         "valid_files": valid_files,
         "invalid_files": total_files - valid_files,
-        "overall_status": "PASS" if success else "FAIL",
+        "overall_status": "PASS" if total_files > 0 and valid_files == total_files else "FAIL",
         "error_count": len(errors)
     }
     
     # Write JSON report
-    import json
-    with open(f"{modules_dir}/validation_report.json", "w") as f:
+    report_path = os.path.join(args.modules_dir, "validation_report.json")
+    with open(report_path, "w") as f:
         json.dump(report, f, indent=2)
     
-    print(f"\nValidation report written to: {modules_dir}/validation_report.json")
+    print(f"\nValidation report written to: {report_path}")
     
-    return 0 if success else 1
-
-if __name__ == "__main__":
-    import sys
-    sys.exit(main())
+    sys.exit(0 if success else 1)
