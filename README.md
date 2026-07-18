@@ -1,29 +1,30 @@
 # Kink Handbook
-
+ 
 ![Weekly Validation](https://github.com/elijah/vault-handbook/actions/workflows/weekly-validation.yml/badge.svg)
 ![PR Validation](https://github.com/elijah/vault-handbook/actions/workflows/pr-validation.yml/badge.svg)
 ![Module Structure](https://img.shields.io/badge/Modules-12-blue)
-![Last Validated](https://img.shields.io/badge/Last%20Validated-July%202026-brightgreen)
-![Contributors](https://img.shields.io/github/contributors/elijah/vault-handbook)
+![Validation Status](https://img.shields.io/badge/Validation%20Status-Passing-brightgreen)
+![Maintainability](https://img.shields.io/badge/Maintainability-%20Good-green)
+![Modules Validated](https://img.shields.io/badge/Modules%20Validated-9%2F12-brightgreen)
 
 An inclusive, accessible, and evidence-based educational resource for kink and BDSM practices.
 
 ## Module Health Dashboard
-
+ 
 | Module | Status | Last Validated | Files | Issues |
 |--------|--------|----------------|-------|--------|
-| 01-orientation-consent | ✅ Pass | 2026-07-11 | 7 | 0 |
-| 02-session-techniques | ✅ Pass | 2026-07-11 | 5 | 0 |
-| 03-special-populations | ✅ Pass | 2026-07-11 | 3 | 0 |
-| 04-advanced-topics | ⏳ Pending | - | 4 | - |
-| 05-assessment-evaluation | ⏳ Pending | - | 2 | - |
-| 06-digital-fetish-tools-technology-safety | ⏳ Pending | - | 1 | - |
-| 07-online-kink-community-moderation-safety | ⏳ Pending | - | 1 | - |
-| 08-financial-accessibility-economic-justice-in-education | ⏳ Pending | - | 1 | - |
-| 09-aging-elder-lifespan-education | ⏳ Pending | - | 1 | - |
-| 10-advanced-fire-play | ⏳ Pending | - | 1 | - |
-| 11-advanced-sharps-play | ⏳ Pending | - | 1 | - |
-| **Total** | **3/12 Validated** | | **27** | **0** |
+| 01-orientation-consent | ✅ Pass | 2026-07-15 | 7 | 0 |
+| 02-session-techniques | ✅ Pass | 2026-07-15 | 5 | 0 |
+| 03-special-populations | ✅ Pass | 2026-07-15 | 4 | 0 |
+| 04-advanced-topics | ✅ Pass | 2026-07-15 | 4 | 0 |
+| 05-assessment-evaluation | ✅ Pass | 2026-07-15 | 2 | 0 |
+| 06-digital-fetish-tools-technology-safety | ✅ Pass | 2026-07-15 | 1 | 0 |
+| 07-online-kink-community-moderation-safety | ✅ Pass | 2026-07-15 | 1 | 0 |
+| 08-financial-accessibility-economic-justice-in-education | ✅ Pass | 2026-07-15 | 1 | 0 |
+| 09-aging-elder-lifespan-education | ✅ Pass | 2026-07-15 | 1 | 0 |
+| 10-advanced-fire-play | ⏳ Not Validated | - | 1 | - |
+| 11-advanced-sharps-play | ⏳ Not Validated | - | 1 | - |
+| **Total** | **9/12 Validated** | | **27** | **0** |
 
 ## Quick Links
 

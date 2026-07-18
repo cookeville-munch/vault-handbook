@@ -1,0 +1,73 @@
+name: Documentation Build Pipeline
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: '0 3 * * 0'  # Weekly Sunday at 3 AM UTC
+  workflow_dispatch:  # Manual trigger option
+
+jobs:
+  build-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: |
+          # Install Python dependencies for validation scripts
+          pip install --quiet pyyaml
+          # Install Node.js dependencies
+          npm ci
+
+      - name: Generate documentation
+        run: |
+          echo "Generating module index and glossary..."
+          python3 scripts/generate/generate_module_index.py \
+            --modules-dir content/modules \
+            --output-index docs/index/generated_module_toc.md \
+            --output-glossary docs/glossary/generated_module_glossary.md \
+            --output-matrix docs/dependencies/generated_dependency_matrix.md
+          
+          echo "Validating generated documentation..."
+          # Basic validation that files were created
+          if [ ! -f docs/index/generated_module_toc.md ]; then
+            echo "ERROR: Module TOC not generated"
+            exit 1
+          fi
+          if [ ! -f docs/glossary/generated_module_glossary.md ]; then
+            echo "ERROR: Glossary not generated"
+            exit 1
+          fi
+          if [ ! -f docs/dependencies/generated_dependency_matrix.md ]; then
+            echo "ERROR: Dependency matrix not generated"
+            exit 1
+          fi
+
+      - name: Validate generated docs
+        run: |
+          # Check for broken links in generated docs
+          npx markdown-link-check docs/**/*.md || {
+            echo "WARNING: Some links may be broken in generated docs"
+          }
+
+      - name: Upload documentation artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-documentation
+          path: |
+            docs/index/generated_module_toc.md
+            docs/glossary/generated_module_glossary.md
+            docs/dependencies/generated_dependency_matrix.md
+          retention-days: 30

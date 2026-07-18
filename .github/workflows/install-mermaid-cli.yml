@@ -1,0 +1,20 @@
+name: Mermaid CLI Installation
+on: [push, workflow_dispatch]
+
+jobs:
+  install-mermaid-cli:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+      - name: Clean node_modules
+        run: rm -rf node_modules
+      - name: Install mermaid-cli
+        run: |
+          npm install @mermaid-js/mermaid-cli --save-dev
+          # Verify installation
+          npx mmdc --version

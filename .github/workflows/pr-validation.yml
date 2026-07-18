@@ -30,6 +30,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run Module Structure Validation
+        run: python3 scripts/validation/validate_structure.py --modules-dir content/modules
+
       - name: Run Markdown linting
         run: npx markdownlint-cli '**/*.md' --ignore 'node_modules/**' --ignore '**/temp/**'
 
@@ -149,6 +157,14 @@ jobs:
               npx docsify build ./build --output ./build 2>/dev/null || echo "Docs build completed or no docsify config found"
             fi
           fi
+
+      - name: Build documentation - Disabled (separate workflow)
+        run: |
+          echo "Building documentation..."
+          mkdir -p docs/_build
+          echo "# Documentation Build Placeholder" > docs/_build/README.md
+          echo "Build completed for GitHub Pages" >> docs/_build/README.md
+          echo "Note: Full documentation build is now handled by a separate workflow"
 
       - name: Upload documentation artifact
         uses: actions/upload-artifact@v4

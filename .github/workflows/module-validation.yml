@@ -1,0 +1,41 @@
+name: Module Validation Pipeline
+on:
+  pull_request:
+    branches: [main]
+    paths:
+      - 'content/modules/**'
+      - 'scripts/validation/validate_structure.py'
+
+jobs:
+  validate-modules:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Need full history for validation references
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install validation dependencies
+        run: |
+          # No additional dependencies needed beyond standard library
+          echo "Validation script uses only Python standard library"
+
+      - name: Run module validation
+        run: |
+          echo "Validating all modules in content/modules/"
+          python3 scripts/validation/validate_structure.py content/modules
+        # The script will exit with non-zero code if validation fails,
+        # which will cause the job to fail as desired
+
+      - name: Upload validation results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-report
+          path: validation-report.md
+          retention-days: 7

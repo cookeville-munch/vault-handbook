@@ -1,0 +1,59 @@
+name: Mermaid to SVG Conversion
+on:
+  push:
+    paths:
+      - 'diagrams/**'
+  workflow_dispatch:  # Manual trigger option for initiating conversion
+
+jobs:
+  convert-svg:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: Install mermaid-cli
+        run: npm install @mermaid-js/mermaid-cli
+
+      - name: Run SVG conversion
+        run: |
+          echo "Converting Mermaid diagrams to SVG..."
+          ./scripts/generate/mermaid_to_svg.sh
+          
+          # Verify at least one SVG was generated
+          if [ ! -f diagrams/*.svg ] && [ ! -f diagrams/*/*.svg ]; then
+            echo "ERROR: No SVG files generated"
+            exit 1
+          fi
+          echo "✓ SVG conversion completed successfully"
+
+      - name: Commit and push SVGs
+        run: |
+          git config --global user.email "github-actions[bot]"@users.noreply.github.com
+          git config --global user.name "GitHub Action"
+          
+          # Add all generated SVGs
+          git add diagrams/**/*.svg
+          
+          # Commit if changes exist
+          if git status --porcelain; then
+            git commit -m "Automated SVG conversion from diagram changes"
+            git push
+          else
+            echo "No SVG changes to commit"
+          fi
+
+      - name: Upload SVG artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-svgs
+          path: diagrams/**/*.svg
+          retention-days: 7
