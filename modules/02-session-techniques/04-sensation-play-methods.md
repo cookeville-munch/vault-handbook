@@ -1,4 +1,6 @@
 # Sensation Play Methodologies  
+
+**Level: Foundational** | **Module: 02-session-techniques** | **Prerequisites: 01-orientation-consent**
 ## Core Principles  
 - **Sensory Hierarchy**: Understanding physiological responses to different textures (e.g., silk vs. rubber)  
 - **Threshold Management**: Techniques to safely escalate or de-escalate sensation intensity  
@@ -25,6 +27,22 @@
 - **Emotional**: Student-reported sense of agency during play  
 
 ---
+
+## Learning Objectives
+
+1. **Understand Sensation Play Methodologies** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Core Principles** - Demonstrate practical understanding and implementation of core principles
+1. **Apply Material Selection Guide** - Demonstrate practical understanding and implementation of material selection guide
+1. **Apply Technique Workflows** - Demonstrate practical understanding and implementation of technique workflows
+
+
+
+## Key Takeaways
+
+- **Core Principles** - Understanding and applying core principles is essential for safe and effective practice
+- **Material Selection Guide** - Understanding and applying material selection guide is essential for safe and effective practice
+- **Technique Workflows** - Understanding and applying technique workflows is essential for safe and effective practice
+- **Assessment Criteria** - Understanding and applying assessment criteria is essential for safe and effective practice
 
 ## Case Studies: Real-World Sensation Play Scenarios
 
@@ -115,3 +133,10 @@ A participant with nerve damage suffered pain from a vibrating implement that ot
 - Tissue integrity verification workflows
 - Neurochemical balance restoration protocols
 - Adaptive debriefing frameworks for diverse feedback styles
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [04-advanced-topics](../04-advanced-topics) - Advanced topics building on these techniques
+- [Module Index](../../README.md) - Complete module overview
+

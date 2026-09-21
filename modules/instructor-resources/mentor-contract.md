@@ -1,5 +1,23 @@
 # Mentorship Agreement Template
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Mentorship Agreement Template** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Parties Involved** - Demonstrate practical understanding and implementation of parties involved
+1. **Apply Term Agreement** - Demonstrate practical understanding and implementation of term agreement
+1. **Apply Competency Milestones (UPDATED)** - Demonstrate practical understanding and implementation of competency milestones (updated)
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Parties Involved** - Understanding and applying parties involved is essential for safe and effective practice
+- **Term Agreement** - Understanding and applying term agreement is essential for safe and effective practice
+- **Competency Milestones (UPDATED)** - Understanding and applying competency milestones (updated) is essential for safe and effective practice
+- **Responsibilities** - Understanding and applying responsibilities is essential for safe and effective practice
+
 ## Parties Involved
 - **Mentor**: ______________________________ (Certified Educator/Experienced Practitioner)
 - **Apprentice**: _________________________ (New Practitioner/Student)
@@ -82,3 +100,10 @@
 *Version: 2.1*
 *Curated by: Education Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

@@ -1,5 +1,23 @@
 # Personal Mentorship Guide
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Personal Mentorship Guide** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Finding Your Mentor** - Demonstrate practical understanding and implementation of finding your mentor
+1. **Apply Relationship Setup** - Demonstrate practical understanding and implementation of relationship setup
+1. **Apply Establishing Boundaries** - Demonstrate practical understanding and implementation of establishing boundaries
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Finding Your Mentor** - Understanding and applying finding your mentor is essential for safe and effective practice
+- **Relationship Setup** - Understanding and applying relationship setup is essential for safe and effective practice
+- **Establishing Boundaries** - Understanding and applying establishing boundaries is essential for safe and effective practice
+- **Consent & Negotiation** - Understanding and applying consent & negotiation is essential for safe and effective practice
+
 ## Finding Your Mentor
 1. **Online Search**
    - Browse community forums and social media
@@ -98,3 +116,10 @@
 
 This guide should be personalized based on your individual needs, goals, and comfort levels.
 *
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

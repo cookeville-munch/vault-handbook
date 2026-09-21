@@ -1,8 +1,26 @@
 # Special Populations: Inclusive Kink Education  
+
+**Level: Intermediate** | **Module: 03-special-populations** | **Prerequisites: 01-orientation-consent**
 ## Overview  
 Comprehensive framework for disability, neurodiversity, aging, and intersectional inclusion with structured learning pathways and practical implementation tools.
 
 ---
+
+## Learning Objectives
+
+1. **Understand Special Populations: Inclusive Kink Education** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Overview** - Demonstrate practical understanding and implementation of overview
+1. **Apply Visual Learning Pathways** - Demonstrate practical understanding and implementation of visual learning pathways
+1. **Apply Enhanced Neurodivergent Practices** - Demonstrate practical understanding and implementation of enhanced neurodivergent practices
+
+
+
+## Key Takeaways
+
+- **Overview** - Understanding and applying overview is essential for safe and effective practice
+- **Visual Learning Pathways** - Understanding and applying visual learning pathways is essential for safe and effective practice
+- **Enhanced Neurodivergent Practices** - Understanding and applying enhanced neurodivergent practices is essential for safe and effective practice
+- **Structured Accommodation Protocols** - Understanding and applying structured accommodation protocols is essential for safe and effective practice
 
 ## Visual Learning Pathways  
 **Inclusive Education Decision Tree:**  
@@ -295,3 +313,9 @@ Leadership (3+ years):
 - **Current Focus**: Peer validation and feedback integration  
 
 **Module Length**: ~1,450 lines of enhanced inclusive practices framework
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

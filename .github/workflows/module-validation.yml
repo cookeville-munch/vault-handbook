@@ -27,8 +27,8 @@ jobs:
 
       - name: Run module validation
         run: |
-          echo "Validating all modules in content/modules/"
-          python3 scripts/validation/validate_structure.py content/modules
+          echo "Validating all modules in modules/"
+          python3 scripts/validation/validate_structure.py modules
         # The script will exit with non-zero code if validation fails,
         # which will cause the job to fail as desired
 

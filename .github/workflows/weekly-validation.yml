@@ -33,9 +33,9 @@ jobs:
 
       - name: Run module validation
         id: python-validation
-        run: python3 scripts/validation/validate_structure.py --modules-dir content/modules
+        run: python3 scripts/validation/validate_structure.py modules
         env:
-          MODULES_DIR: content/modules
+          MODULES_DIR: modules
 
       - name: Run link checking
         id: link-check

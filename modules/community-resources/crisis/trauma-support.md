@@ -1,5 +1,23 @@
 # Community Trauma Support System
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Community Trauma Support System** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Core Response Framework** - Demonstrate practical understanding and implementation of core response framework
+1. **Apply Emergency Response Components** - Demonstrate practical understanding and implementation of emergency response components
+1. **Apply Peer Support System Structure** - Demonstrate practical understanding and implementation of peer support system structure
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Core Response Framework** - Understanding and applying core response framework is essential for safe and effective practice
+- **Emergency Response Components** - Understanding and applying emergency response components is essential for safe and effective practice
+- **Peer Support System Structure** - Understanding and applying peer support system structure is essential for safe and effective practice
+- **Recovery Resources Database** - Understanding and applying recovery resources database is essential for safe and effective practice
+
 ## Core Response Framework
 - Immediate de-escalation protocols
 - Long-term recovery pathways
@@ -31,3 +49,10 @@
 - Support group schedules
 - Financial assistance programs
 - Legal aid resources
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

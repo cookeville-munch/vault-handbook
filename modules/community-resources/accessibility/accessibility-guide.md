@@ -1,5 +1,23 @@
 # Accessibility Guide for Kink Education
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Accessibility Guide for Kink Education** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Introduction** - Demonstrate practical understanding and implementation of introduction
+1. **Apply Universal Design Principles** - Demonstrate practical understanding and implementation of universal design principles
+1. **Apply Physical Accessibility** - Demonstrate practical understanding and implementation of physical accessibility
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Introduction** - Understanding and applying introduction is essential for safe and effective practice
+- **Universal Design Principles** - Understanding and applying universal design principles is essential for safe and effective practice
+- **Physical Accessibility** - Understanding and applying physical accessibility is essential for safe and effective practice
+- **Venue Requirements** - Understanding and applying venue requirements is essential for safe and effective practice
+
 ## Introduction
 This guide ensures kink education is inclusive and accessible to people of all abilities, neurotypes, ages, and backgrounds. Accessibility is not an add-on but a core component of ethical practice.
 
@@ -241,3 +259,10 @@ This guide ensures kink education is inclusive and accessible to people of all a
 *Version: 1.0*
 *Curated by: Inclusion Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

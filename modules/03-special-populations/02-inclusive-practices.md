@@ -1,5 +1,7 @@
 # Special Populations Module: Inclusive Kink Education (Continued)
 
+**Level: Intermediate** | **Module: 03-special-populations** | **Prerequisites: 01-orientation-consent**
+
 ## Disability-Inclusive Kink Practices
 
 ### Mobility & Physical Disability Adaptations
@@ -59,6 +61,22 @@
 - **Vision development**: Progressive shape adaptation, mixed-media protocols
 
 ---
+
+## Learning Objectives
+
+1. **Understand Special Populations Module: Inclusive Kink Education (Continued)** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Disability-Inclusive Kink Practices** - Demonstrate practical understanding and implementation of disability-inclusive kink practices
+1. **Apply Mobility & Physical Disability Adaptations** - Demonstrate practical understanding and implementation of mobility & physical disability adaptations
+1. **Apply Sensory & Physical Disability Inclusion** - Demonstrate practical understanding and implementation of sensory & physical disability inclusion
+
+
+
+## Key Takeaways
+
+- **Disability-Inclusive Kink Practices** - Understanding and applying disability-inclusive kink practices is essential for safe and effective practice
+- **Mobility & Physical Disability Adaptations** - Understanding and applying mobility & physical disability adaptations is essential for safe and effective practice
+- **Sensory & Physical Disability Inclusion** - Understanding and applying sensory & physical disability inclusion is essential for safe and effective practice
+- **Aging & Lifespan Kink Education** - Understanding and applying aging & lifespan kink education is essential for safe and effective practice
 
 ## Aging & Lifespan Kink Education
 
@@ -228,3 +246,9 @@
 4. **Restorative Justice Framework**: Community-led repair processes
 
 This completes the Special Populations and Community Resources sections. Ready for final review and compilation?
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

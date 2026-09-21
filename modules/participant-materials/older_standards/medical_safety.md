@@ -1,5 +1,23 @@
 # Medical Safety for Senior Practitioners
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Medical Safety for Senior Practitioners** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply I. Chronic Condition Coordination** - Demonstrate practical understanding and implementation of i. chronic condition coordination
+1. **Apply Hypertension & Blood Pressure Monitoring** - Demonstrate practical understanding and implementation of hypertension & blood pressure monitoring
+1. **Apply Diabetes Management** - Demonstrate practical understanding and implementation of diabetes management
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **I. Chronic Condition Coordination** - Understanding and applying i. chronic condition coordination is essential for safe and effective practice
+- **Hypertension & Blood Pressure Monitoring** - Understanding and applying hypertension & blood pressure monitoring is essential for safe and effective practice
+- **Diabetes Management** - Understanding and applying diabetes management is essential for safe and effective practice
+- **Cardiovascular Conditions** - Understanding and applying cardiovascular conditions is essential for safe and effective practice
+
 ## I. Chronic Condition Coordination
 
 ### Hypertension & Blood Pressure Monitoring
@@ -102,3 +120,10 @@
 *Version: 1.0*
 *Curated by: Clinical Advisory Board*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

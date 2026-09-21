@@ -1,5 +1,23 @@
 # Crisis Management Scenarios
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Crisis Management Scenarios** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Scenario 1: Boundary Violation During Scene** - Demonstrate practical understanding and implementation of scenario 1: boundary violation during scene
+1. **Apply Scenario 2: Medical Emergency in Suspension** - Demonstrate practical understanding and implementation of scenario 2: medical emergency in suspension
+1. **Apply Scenario 3: Online Harassment Escalation** - Demonstrate practical understanding and implementation of scenario 3: online harassment escalation
+
+ | **Module: training** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Scenario 1: Boundary Violation During Scene** - Understanding and applying scenario 1: boundary violation during scene is essential for safe and effective practice
+- **Scenario 2: Medical Emergency in Suspension** - Understanding and applying scenario 2: medical emergency in suspension is essential for safe and effective practice
+- **Scenario 3: Online Harassment Escalation** - Understanding and applying scenario 3: online harassment escalation is essential for safe and effective practice
+- **Scenario 4: Venue Power Failure During Event** - Understanding and applying scenario 4: venue power failure during event is essential for safe and effective practice
+
 ## Scenario 1: Boundary Violation During Scene
 **Profile**: During a negotiated flogging scene, the recipient uses their safeword but the giver continues for 8 more strikes.  
 **Context**: Giver reports mishearing due to loud music; recipient experiences distress and flashback.  
@@ -110,3 +128,10 @@
 *Version: 1.0*
 *Curated by: Crisis Management Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [02-session-techniques](../02-session-techniques) - Session techniques
+- [Module Index](../../README.md) - Complete module overview
+

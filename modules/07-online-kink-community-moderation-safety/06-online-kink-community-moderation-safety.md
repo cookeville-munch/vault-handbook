@@ -1,5 +1,7 @@
 # Advanced Topics Module 6: Online Kink Community Moderation & Safety Frameworks
 
+**Level: Intermediate** | **Module: 07-online-kink-community-moderation-safety** | **Prerequisites: 01-orientation-consent**
+
 ## Chapter 1: Platform Governance Architecture
 
 ### 1.1 Community-Centered Moderation Models
@@ -271,6 +273,22 @@
 
 ---
 
+## Learning Objectives
+
+1. **Understand Advanced Topics Module 6: Online Kink Community Moderation & Safety Frameworks** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Chapter 1: Platform Governance Architecture** - Demonstrate practical understanding and implementation of chapter 1: platform governance architecture
+1. **Apply 1.1 Community-Centered Moderation Models** - Demonstrate practical understanding and implementation of 1.1 community-centered moderation models
+1. **Apply 1.2 Jurisdictional & Legal Compliance Layer** - Demonstrate practical understanding and implementation of 1.2 jurisdictional & legal compliance layer
+
+
+
+## Key Takeaways
+
+- **Chapter 1: Platform Governance Architecture** - Understanding and applying chapter 1: platform governance architecture is essential for safe and effective practice
+- **1.1 Community-Centered Moderation Models** - Understanding and applying 1.1 community-centered moderation models is essential for safe and effective practice
+- **1.2 Jurisdictional & Legal Compliance Layer** - Understanding and applying 1.2 jurisdictional & legal compliance layer is essential for safe and effective practice
+- **1.3 Economic Sustainability & Independence** - Understanding and applying 1.3 economic sustainability & independence is essential for safe and effective practice
+
 ## Appendices
 
 ### A. Moderator Toolkit
@@ -301,3 +319,9 @@
 ---
 
 This module establishes a comprehensive foundation for creating and maintaining online kink communities that prioritize safety, consent, inclusivity, and resilience. It provides practical frameworks, technical guidance, and governance models that can be adapted to platforms of various sizes and specific community focuses.
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

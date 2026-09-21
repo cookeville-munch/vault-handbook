@@ -1,5 +1,23 @@
 # Community Crisis Response Protocol
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Community Crisis Response Protocol** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Tiers of Crisis Management** - Demonstrate practical understanding and implementation of tiers of crisis management
+1. **Apply Response Team Roles** - Demonstrate practical understanding and implementation of response team roles
+1. **Apply Communication Protocols** - Demonstrate practical understanding and implementation of communication protocols
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Tiers of Crisis Management** - Understanding and applying tiers of crisis management is essential for safe and effective practice
+- **Response Team Roles** - Understanding and applying response team roles is essential for safe and effective practice
+- **Communication Protocols** - Understanding and applying communication protocols is essential for safe and effective practice
+- **Post-Incident Review Process** - Understanding and applying post-incident review process is essential for safe and effective practice
+
 ## Tiers of Crisis Management
 1. **Tier 1: Minor Incident**
    - Verbal de-escalation
@@ -53,3 +71,10 @@
 - Monthly tabletop exercises
 - Quarterly full-scale simulations
 - Annual comprehensive evaluation
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

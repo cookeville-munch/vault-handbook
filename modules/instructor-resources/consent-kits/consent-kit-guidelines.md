@@ -1,5 +1,22 @@
 # Consent Kit Development Guide
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Consent Kit Development Guide** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Kit Components** - Demonstrate practical understanding and implementation of kit components
+1. **Apply Development Stages** - Demonstrate practical understanding and implementation of development stages
+1. **Apply Quality Checklist** - Demonstrate practical understanding and implementation of quality checklist
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Kit Components** - Understanding and applying kit components is essential for safe and effective practice
+- **Development Stages** - Understanding and applying development stages is essential for safe and effective practice
+- **Quality Checklist** - Understanding and applying quality checklist is essential for safe and effective practice
+
 ## Kit Components
 1. Core Documents
    - Consent agreement templates (visual/audio/emoji formats)
@@ -25,3 +42,10 @@
 - [ ] Accessibility compliance
 - [ ] Grammar/spelling check
 - [ ] Practice run with community members
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

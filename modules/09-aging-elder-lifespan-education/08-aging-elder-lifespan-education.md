@@ -1,5 +1,7 @@
 # Advanced Topics Module 8: Aging, Eldership & Lifespan Kink Education
 
+**Level: Foundational** | **Module: 09-aging-elder-lifespan-education** | **Prerequisites: 01-orientation-consent**
+
 ## Chapter 1: Biopsychosocial Aspects of Lifelong Sexual Wellbeing
 
 ### 1.1 Age-Related Physiological Changes
@@ -242,4 +244,22 @@
 
 ---
 
-This module establishes a comprehensive framework for integrating aging, elderhood, and lifespan considerations into kink education and community practice. It ensures that knowledge transmission, community participation, and personal exploration can occur safely, respectfully, and sustainably across the entirety of a practitioner's life journey.
+## Learning Objectives
+
+1. **Understand Advanced Topics Module 8: Aging, Eldership & Lifespan Kink Education** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Chapter 1: Biopsychosocial Aspects of Lifelong Sexual Wellbeing** - Demonstrate practical understanding and implementation of chapter 1: biopsychosocial aspects of lifelong sexual wellbeing
+1. **Apply 1.1 Age-Related Physiological Changes** - Demonstrate practical understanding and implementation of 1.1 age-related physiological changes
+1. **Apply 1.2 Cognitive & Emotional Evolution** - Demonstrate practical understanding and implementation of 1.2 cognitive & emotional evolution
+
+## Key Takeaways
+
+- **Lifespan Kink Education** - Integrating aging, elderhood, and lifelong learning into kink practice
+- **Consent Across the Lifespan** - Maintaining affirmative consent through physiological and cognitive changes
+- **Intergenerational Knowledge Transfer** - Passing wisdom and techniques between generations
+- **Age-Inclusive Practices** - Accommodating physiological and cognitive changes while honoring experience
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

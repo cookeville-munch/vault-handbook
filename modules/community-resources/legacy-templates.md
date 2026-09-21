@@ -1,5 +1,23 @@
 # Legacy Templates & Interview Frameworks
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Legacy Templates & Interview Frameworks** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Oral History Interview Framework** - Demonstrate practical understanding and implementation of oral history interview framework
+1. **Apply Core Interview Structure** - Demonstrate practical understanding and implementation of core interview structure
+1. **Apply Question Bank by Theme** - Demonstrate practical understanding and implementation of question bank by theme
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Oral History Interview Framework** - Understanding and applying oral history interview framework is essential for safe and effective practice
+- **Core Interview Structure** - Understanding and applying core interview structure is essential for safe and effective practice
+- **Question Bank by Theme** - Understanding and applying question bank by theme is essential for safe and effective practice
+- **Community Formation** - Understanding and applying community formation is essential for safe and effective practice
+
 ## Oral History Interview Framework
 
 ### Core Interview Structure
@@ -64,3 +82,10 @@
 - **Cultural Sensitivity**: Respect traditions of knowledge-keeping
 - **Benefit Sharing**: Community access to archive products
 - **Sovereignty**: Subjects retain control over their narratives
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

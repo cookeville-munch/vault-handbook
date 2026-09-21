@@ -1,5 +1,23 @@
 # Digital Safety Guides
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Digital Safety Guides** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply 1. Device Security Checklist** - Demonstrate practical understanding and implementation of 1. device security checklist
+1. **Apply 2. App/Software Vetting Protocol** - Demonstrate practical understanding and implementation of 2. app/software vetting protocol
+1. **Apply 3. Data Encryption & Storage** - Demonstrate practical understanding and implementation of 3. data encryption & storage
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **1. Device Security Checklist** - Understanding and applying 1. device security checklist is essential for safe and effective practice
+- **2. App/Software Vetting Protocol** - Understanding and applying 2. app/software vetting protocol is essential for safe and effective practice
+- **3. Data Encryption & Storage** - Understanding and applying 3. data encryption & storage is essential for safe and effective practice
+- **4. Network Security** - Understanding and applying 4. network security is essential for safe and effective practice
+
 ## 1. Device Security Checklist
 - **Biometric Authentication**: Ensure facial/fingerprint recognition works reliably
 - **Strong PIN/Password**: Minimum 8 characters, mix of types, not reused
@@ -152,3 +170,10 @@
 *Version: 1.1*
 *Curated by: Security Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

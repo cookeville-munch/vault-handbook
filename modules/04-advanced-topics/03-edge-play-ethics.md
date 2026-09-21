@@ -1,5 +1,23 @@
 # Advanced Topics Module 3: Edge Play Ethics & RACK Frameworks
 
+**Level: Advanced**
+## Learning Objectives
+
+1. **Understand Advanced Topics Module 3: Edge Play Ethics & RACK Frameworks** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply 1. Foundational RACK Principles (Risk, Awareness, Consent, Negotiation)** - Demonstrate practical understanding and implementation of 1. foundational rack principles (risk, awareness, consent, negotiation)
+1. **Apply 1.1 Risk Assessment Framework** - Demonstrate practical understanding and implementation of 1.1 risk assessment framework
+1. **Apply 1.2 Awareness Protocols** - Demonstrate practical understanding and implementation of 1.2 awareness protocols
+
+ | **Module: 04-advanced-topics** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **1. Foundational RACK Principles (Risk, Awareness, Consent, Negotiation)** - Understanding and applying 1. foundational rack principles (risk, awareness, consent, negotiation) is essential for safe and effective practice
+- **1.1 Risk Assessment Framework** - Understanding and applying 1.1 risk assessment framework is essential for safe and effective practice
+- **1.2 Awareness Protocols** - Understanding and applying 1.2 awareness protocols is essential for safe and effective practice
+- **1.3 Consent Model Evolution** - Understanding and applying 1.3 consent model evolution is essential for safe and effective practice
+
 ## 1. Foundational RACK Principles (Risk, Awareness, Consent, Negotiation)
 
 ### 1.1 Risk Assessment Framework
@@ -149,3 +167,10 @@
   - Inclusion of marginalized perspectives
 
 This completes the Edge Play Ethics & RACK Frameworks module. Should I proceed with creating the next advanced topic (e.g., Long-Term Power Exchange Dynamics or Advanced Sensation Play Techniques)? Please specify which topic to develop next.
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundational consent and safety
+- [02-session-techniques](../02-session-techniques) - Foundational techniques
+- [Module Index](../../README.md) - Complete module overview
+

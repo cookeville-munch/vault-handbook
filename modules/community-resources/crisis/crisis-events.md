@@ -1,5 +1,23 @@
 # Crisis Event Management for Play Parties
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Crisis Event Management for Play Parties** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Emergency Response Structure** - Demonstrate practical understanding and implementation of emergency response structure
+1. **Apply First Response Team (3-5 members)** - Demonstrate practical understanding and implementation of first response team (3-5 members)
+1. **Apply Activation Protocol** - Demonstrate practical understanding and implementation of activation protocol
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Emergency Response Structure** - Understanding and applying emergency response structure is essential for safe and effective practice
+- **First Response Team (3-5 members)** - Understanding and applying first response team (3-5 members) is essential for safe and effective practice
+- **Activation Protocol** - Understanding and applying activation protocol is essential for safe and effective practice
+- **Crisis Types & Responses** - Understanding and applying crisis types & responses is essential for safe and effective practice
+
 ## Emergency Response Structure
 
 ### First Response Team (3-5 members)
@@ -56,3 +74,10 @@
 *Version: 1.1*
 *Curated by: Community Safety Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

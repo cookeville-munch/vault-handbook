@@ -1,5 +1,7 @@
 # Special Populations: Inclusive Kink Education
 
+**Level: Intermediate** | **Module: 03-special-populations** | **Prerequisites: 01-orientation-consent**
+
 ## Neurodivergent-Affirming Kink Practices
 
 ### Autism-Aware Kink Play
@@ -28,6 +30,22 @@
 - Peer support circles for processing support
 
 ---
+
+## Learning Objectives
+
+1. **Understand Special Populations: Inclusive Kink Education** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Neurodivergent-Affirming Kink Practices** - Demonstrate practical understanding and implementation of neurodivergent-affirming kink practices
+1. **Apply Autism-Aware Kink Play** - Demonstrate practical understanding and implementation of autism-aware kink play
+1. **Apply ADHD-Friendly Kink Education** - Demonstrate practical understanding and implementation of adhd-friendly kink education
+
+
+
+## Key Takeaways
+
+- **Neurodivergent-Affirming Kink Practices** - Understanding and applying neurodivergent-affirming kink practices is essential for safe and effective practice
+- **Autism-Aware Kink Play** - Understanding and applying autism-aware kink play is essential for safe and effective practice
+- **ADHD-Friendly Kink Education** - Understanding and applying adhd-friendly kink education is essential for safe and effective practice
+- **Sensory Processing Considerations** - Understanding and applying sensory processing considerations is essential for safe and effective practice
 
 ### ADHD-Friendly Kink Education
 
@@ -113,3 +131,9 @@ Daily Check-In Template:
 - Documentation of personalized accommodations
 - Peer-reviewed success stories
 - Anonymized incident logs showing adaptation
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

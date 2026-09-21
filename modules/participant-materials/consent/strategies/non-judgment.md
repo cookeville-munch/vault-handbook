@@ -1,5 +1,23 @@
 # Non-Judgment Consent Framework
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Non-Judgment Consent Framework** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Core Principle: "Your Kink Is Not My Kink And That's Okay"** - Demonstrate practical understanding and implementation of core principle: "your kink is not my kink and that's okay"
+1. **Apply Internalized Shame Mitigation** - Demonstrate practical understanding and implementation of internalized shame mitigation
+1. **Apply Recognition Exercise** - Demonstrate practical understanding and implementation of recognition exercise
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Core Principle: "Your Kink Is Not My Kink And That's Okay"** - Understanding and applying core principle: "your kink is not my kink and that's okay" is essential for safe and effective practice
+- **Internalized Shame Mitigation** - Understanding and applying internalized shame mitigation is essential for safe and effective practice
+- **Recognition Exercise** - Understanding and applying recognition exercise is essential for safe and effective practice
+- **Counter-Narrative Development** - Understanding and applying counter-narrative development is essential for safe and effective practice
+
 ## Core Principle: "Your Kink Is Not My Kink And That's Okay"
 
 This foundational principle establishes that:
@@ -108,3 +126,10 @@ This foundational principle establishes that:
 *Version: 1.0*
 *Curated by: Consent Education Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

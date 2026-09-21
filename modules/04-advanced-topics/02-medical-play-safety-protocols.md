@@ -1,5 +1,23 @@
 # Advanced Topics Module 2: Medical Play Safety Protocols
 
+**Level: Advanced**
+## Learning Objectives
+
+1. **Understand Advanced Topics Module 2: Medical Play Safety Protocols** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply 1. Foundational Medical Safety Principles** - Demonstrate practical understanding and implementation of 1. foundational medical safety principles
+1. **Apply 1.1 Risk-Benefit Analysis Framework** - Demonstrate practical understanding and implementation of 1.1 risk-benefit analysis framework
+1. **Apply 1.2 Neurobiological Effects of Medical Play** - Demonstrate practical understanding and implementation of 1.2 neurobiological effects of medical play
+
+ | **Module: 04-advanced-topics** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **1. Foundational Medical Safety Principles** - Understanding and applying 1. foundational medical safety principles is essential for safe and effective practice
+- **1.1 Risk-Benefit Analysis Framework** - Understanding and applying 1.1 risk-benefit analysis framework is essential for safe and effective practice
+- **1.2 Neurobiological Effects of Medical Play** - Understanding and applying 1.2 neurobiological effects of medical play is essential for safe and effective practice
+- **2. Medical Equipment Engineering & Validation** - Understanding and applying 2. medical equipment engineering & validation is essential for safe and effective practice
+
 ## 1. Foundational Medical Safety Principles
 
 ### 1.1 Risk-Benefit Analysis Framework
@@ -61,3 +79,10 @@
 - Equipment Loan Programs
 - Sliding-Scale Pricing
 - Grant Funding for Low-Income Practitioners
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundational consent and safety
+- [02-session-techniques](../02-session-techniques) - Foundational techniques
+- [Module Index](../../README.md) - Complete module overview
+

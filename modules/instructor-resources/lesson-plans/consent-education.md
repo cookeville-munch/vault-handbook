@@ -1,5 +1,23 @@
 # Lesson Plan Template: Consent Education for New Practitioners
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Lesson Plan Template: Consent Education for New Practitioners** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Core Principle Framework** - Demonstrate practical understanding and implementation of core principle framework
+1. **Apply Session Breakdown** - Demonstrate practical understanding and implementation of session breakdown
+1. **Apply 1. Introduction (45 minutes)** - Demonstrate practical understanding and implementation of 1. introduction (45 minutes)
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Core Principle Framework** - Understanding and applying core principle framework is essential for safe and effective practice
+- **Session Breakdown** - Understanding and applying session breakdown is essential for safe and effective practice
+- **1. Introduction (45 minutes)** - Understanding and applying 1. introduction (45 minutes) is essential for safe and effective practice
+- **2. Skills Practice (90 minutes)** - Understanding and applying 2. skills practice (90 minutes) is essential for safe and effective practice
+
 ## Core Principle Framework
 - **Affirmative Consent = Ongoing Affirmative Consent**
 - **No Assumptions = No Pressures**
@@ -106,3 +124,10 @@
 *Last Updated: 2026-07-10*
 *Curated by: Education Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

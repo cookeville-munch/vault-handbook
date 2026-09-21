@@ -1,5 +1,7 @@
 # Evaluation Tools & Templates
 
+**Level: Intermediate** | **Module: 05-assessment-evaluation** | **Prerequisites: 01-orientation-consent**
+
 ## Practical Skills Assessment Rubric
 
 ### Pre-Scene Negotiation (20 minutes observed)
@@ -32,6 +34,22 @@
 | **Follow-Up Plan** | No follow-up discussed | Vague "check in later" | Specific follow-up timeline/method | Proactive check-in scheduling | Builds ongoing care relationship |
 
 ---
+
+## Learning Objectives
+
+1. **Understand Evaluation Tools & Templates** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Practical Skills Assessment Rubric** - Demonstrate practical understanding and implementation of practical skills assessment rubric
+1. **Apply Pre-Scene Negotiation (20 minutes observed)** - Demonstrate practical understanding and implementation of pre-scene negotiation (20 minutes observed)
+1. **Apply Scene Execution (45 minutes observed)** - Demonstrate practical understanding and implementation of scene execution (45 minutes observed)
+
+
+
+## Key Takeaways
+
+- **Practical Skills Assessment Rubric** - Understanding and applying practical skills assessment rubric is essential for safe and effective practice
+- **Pre-Scene Negotiation (20 minutes observed)** - Understanding and applying pre-scene negotiation (20 minutes observed) is essential for safe and effective practice
+- **Scene Execution (45 minutes observed)** - Understanding and applying scene execution (45 minutes observed) is essential for safe and effective practice
+- **Aftercare & Debrief (25 minutes observed)** - Understanding and applying aftercare & debrief (25 minutes observed) is essential for safe and effective practice
 
 ## Written Knowledge Assessment Sample Questions
 
@@ -224,3 +242,9 @@ _________________________________
 
 **Submitted by:** _________________________  **Date:** ___________
 **Received by Coordinator:** _________________________  **Date:** ___________
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

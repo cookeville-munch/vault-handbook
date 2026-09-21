@@ -1,5 +1,7 @@
 # Comprehensive Aftercare Guide
 
+**Level: Foundational** | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
 ## 1. Core Aftercare Framework
 
 ### 1.1 Aftercare Triage System
@@ -144,6 +146,22 @@
 
 ---
 
+## Learning Objectives
+
+1. **Understand Comprehensive Aftercare Guide** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply 1. Core Aftercare Framework** - Demonstrate practical understanding and implementation of 1. core aftercare framework
+1. **Apply 1.1 Aftercare Triage System** - Demonstrate practical understanding and implementation of 1.1 aftercare triage system
+1. **Apply 1.2 Aftercare Modalities by Sensation Type** - Demonstrate practical understanding and implementation of 1.2 aftercare modalities by sensation type
+
+
+
+## Key Takeaways
+
+- **1. Core Aftercare Framework** - Understanding and applying 1. core aftercare framework is essential for safe and effective practice
+- **1.1 Aftercare Triage System** - Understanding and applying 1.1 aftercare triage system is essential for safe and effective practice
+- **1.2 Aftercare Modalities by Sensation Type** - Understanding and applying 1.2 aftercare modalities by sensation type is essential for safe and effective practice
+- **2. Aftercare Delivery Techniques** - Understanding and applying 2. aftercare delivery techniques is essential for safe and effective practice
+
 ## 6. Inclusive Aftercare Adaptations
 
 ### 6.1 Neurodivergent-Affirming Aftercare
@@ -192,3 +210,10 @@ This updated guide now incorporates neurodivergent-affirming practices, disabili
 *Version: 2.0*
 *Curated by: Education Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

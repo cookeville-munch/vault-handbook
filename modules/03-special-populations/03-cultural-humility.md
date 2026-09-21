@@ -1,5 +1,7 @@
 # Special Populations Module: Cultural Humility & Intersectionality
 
+**Level: Intermediate** | **Module: 03-special-populations** | **Prerequisites: 01-orientation-consent**
+
 ## Decolonizing Kink Education
 
 ### Historical Context Workshops
@@ -34,6 +36,22 @@
 - Visual probability charts showing negotiation outcome likelihoods
 
 ---
+
+## Learning Objectives
+
+1. **Understand Special Populations Module: Cultural Humility & Intersectionality** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Decolonizing Kink Education** - Demonstrate practical understanding and implementation of decolonizing kink education
+1. **Apply Historical Context Workshops** - Demonstrate practical understanding and implementation of historical context workshops
+1. **Apply Community Partnerships** - Demonstrate practical understanding and implementation of community partnerships
+
+
+
+## Key Takeaways
+
+- **Decolonizing Kink Education** - Understanding and applying decolonizing kink education is essential for safe and effective practice
+- **Historical Context Workshops** - Understanding and applying historical context workshops is essential for safe and effective practice
+- **Community Partnerships** - Understanding and applying community partnerships is essential for safe and effective practice
+- **Language Justice Implementation** - Understanding and applying language justice implementation is essential for safe and effective practice
 
 ## Cultural Humility Foundations
 
@@ -95,3 +113,9 @@
 ---
 
 This module provides concrete cultural humility implementation frameworks. Would you like me to add specific case studies or community partnership examples?
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

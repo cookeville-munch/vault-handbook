@@ -1,5 +1,23 @@
 # Evaluation Toolkit
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Evaluation Toolkit** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Enhanced Assessment Rubrics** - Demonstrate practical understanding and implementation of enhanced assessment rubrics
+1. **Apply Technical Competency Evaluation Matrix** - Demonstrate practical understanding and implementation of technical competency evaluation matrix
+1. **Apply Inclusive Teaching Assessment Rubric** - Demonstrate practical understanding and implementation of inclusive teaching assessment rubric
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Enhanced Assessment Rubrics** - Understanding and applying enhanced assessment rubrics is essential for safe and effective practice
+- **Technical Competency Evaluation Matrix** - Understanding and applying technical competency evaluation matrix is essential for safe and effective practice
+- **Inclusive Teaching Assessment Rubric** - Understanding and applying inclusive teaching assessment rubric is essential for safe and effective practice
+- **Safety Protocol Compliance Checklist** - Understanding and applying safety protocol compliance checklist is essential for safe and effective practice
+
 ## Enhanced Assessment Rubrics
 
 ### Technical Competency Evaluation Matrix
@@ -211,3 +229,10 @@ Consider a neurodivergent, disabled, culturally different participant's experien
 5. Document and reflect on your inclusive teaching practice?
 
 This comprehensive enhancement framework ensures that all evaluation measures align with the enhanced session techniques, inclusive practices, and cultural humility principles that have been implemented throughout the curriculum.
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

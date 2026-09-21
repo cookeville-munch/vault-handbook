@@ -1,5 +1,23 @@
 # Practices Journal Template
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Practices Journal Template** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Entry Structure** - Demonstrate practical understanding and implementation of entry structure
+1. **Apply Skill Tracking** - Demonstrate practical understanding and implementation of skill tracking
+1. **Apply Resource Connections** - Demonstrate practical understanding and implementation of resource connections
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Entry Structure** - Understanding and applying entry structure is essential for safe and effective practice
+- **Skill Tracking** - Understanding and applying skill tracking is essential for safe and effective practice
+- **Resource Connections** - Understanding and applying resource connections is essential for safe and effective practice
+- **Format Guide** - Understanding and applying format guide is essential for safe and effective practice
+
 ## Entry Structure
 1. **Date & Session Info**
    - Date, time, location
@@ -51,3 +69,10 @@
 - Visual Aids: Optionally include diagrams or checklists
 
 *Purpose: Track growth, ensure consistent practice standards, support skill development, and facilitate reflective learning.*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

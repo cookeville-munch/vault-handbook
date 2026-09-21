@@ -1,5 +1,23 @@
 # Funding Resources Directory
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Funding Resources Directory** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Community Funding Models** - Demonstrate practical understanding and implementation of community funding models
+1. **Apply Funding Sources** - Demonstrate practical understanding and implementation of funding sources
+1. **Apply Scholarship Application Process** - Demonstrate practical understanding and implementation of scholarship application process
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Community Funding Models** - Understanding and applying community funding models is essential for safe and effective practice
+- **Funding Sources** - Understanding and applying funding sources is essential for safe and effective practice
+- **Scholarship Application Process** - Understanding and applying scholarship application process is essential for safe and effective practice
+- **Industry Partnerships** - Understanding and applying industry partnerships is essential for safe and effective practice
+
 ## Community Funding Models
 - **Sliding Scale Scholarships**: Need-based tuition adjustments
 - **Community Grant Programs**: Funded by member donations and community events
@@ -49,3 +67,10 @@
 *Version: 1.0*
 *Curated by: Finance Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

@@ -1,5 +1,23 @@
 # Inclusive Training Guidelines for Kink Educators
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Inclusive Training Guidelines for Kink Educators** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Universal Design for Learning (UDL) Framework** - Demonstrate practical understanding and implementation of universal design for learning (udl) framework
+1. **Apply Accessibility Accommodations Checklist** - Demonstrate practical understanding and implementation of accessibility accommodations checklist
+1. **Apply Physical Accessibility** - Demonstrate practical understanding and implementation of physical accessibility
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Universal Design for Learning (UDL) Framework** - Understanding and applying universal design for learning (udl) framework is essential for safe and effective practice
+- **Accessibility Accommodations Checklist** - Understanding and applying accessibility accommodations checklist is essential for safe and effective practice
+- **Physical Accessibility** - Understanding and applying physical accessibility is essential for safe and effective practice
+- **Sensory Processing Accommodations** - Understanding and applying sensory processing accommodations is essential for safe and effective practice
+
 ## Universal Design for Learning (UDL) Framework
 - **Multiple Means of Representation**: Present information in varied formats (visual, auditory, kinesthetic)
 - **Multiple Means of Expression**: Allow different ways to demonstrate competency (oral, written, practical)
@@ -160,3 +178,10 @@
 *Version: 1.0*
 *Curated by: Inclusion Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

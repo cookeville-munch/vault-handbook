@@ -1,5 +1,23 @@
 # Essential Link Directory for Kink Practitioners
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Essential Link Directory for Kink Practitioners** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Safety & Education Resources** - Demonstrate practical understanding and implementation of safety & education resources
+1. **Apply Legal & Rights Resources** - Demonstrate practical understanding and implementation of legal & rights resources
+1. **Apply Medical & Health Resources** - Demonstrate practical understanding and implementation of medical & health resources
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Safety & Education Resources** - Understanding and applying safety & education resources is essential for safe and effective practice
+- **Legal & Rights Resources** - Understanding and applying legal & rights resources is essential for safe and effective practice
+- **Medical & Health Resources** - Understanding and applying medical & health resources is essential for safe and effective practice
+- **Technical & Equipment Resources** - Understanding and applying technical & equipment resources is essential for safe and effective practice
+
 ## Safety & Education Resources
 - **Kink-Aware Medical Professionals**: https://kinkfriendlydocs.org/ - Directory of physicians knowledgeable about kink practices
 - **Consent Education Project**: https://consentproject.org/ - Free downloadable consent education materials
@@ -34,3 +52,10 @@
 *Version: 1.0
 *Curated by: Community Safety Committee
 *License: CC-BY-SA 4.0
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

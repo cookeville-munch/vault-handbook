@@ -1,5 +1,22 @@
 # Elder Kink Practice Scenarios
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Elder Kink Practice Scenarios** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Scenario 1: Adaptive Rope Session** - Demonstrate practical understanding and implementation of scenario 1: adaptive rope session
+1. **Apply Scenario 2: Sensory Play for Cognitive Impairment** - Demonstrate practical understanding and implementation of scenario 2: sensory play for cognitive impairment
+1. **Apply Scenario 3: Multi-Partner Consent Governance** - Demonstrate practical understanding and implementation of scenario 3: multi-partner consent governance
+
+ | **Module: training** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Scenario 1: Adaptive Rope Session** - Understanding and applying scenario 1: adaptive rope session is essential for safe and effective practice
+- **Scenario 2: Sensory Play for Cognitive Impairment** - Understanding and applying scenario 2: sensory play for cognitive impairment is essential for safe and effective practice
+- **Scenario 3: Multi-Partner Consent Governance** - Understanding and applying scenario 3: multi-partner consent governance is essential for safe and effective practice
+
 ## Scenario 1: Adaptive Rope Session
 **Profile**: 73-year-old practitioner with osteoarthritis in knees and wrists, partners are 35 and 42.  
 **Goal**: Practice gentle suspension while accommodating limited mobility.  
@@ -60,3 +77,10 @@
 *Version: 1.0*
 *Curated by: Elder Kink Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [02-session-techniques](../02-session-techniques) - Session techniques
+- [Module Index](../../README.md) - Complete module overview
+

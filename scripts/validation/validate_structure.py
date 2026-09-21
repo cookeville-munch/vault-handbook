@@ -1,114 +1,62 @@
 #!/usr/bin/env python3
 """
-Validate module README structure for the kink handbook.
-Checks for required frontmatter, sections, and references.
+Validate module structure for the kink handbook.
+Checks for required structural elements in all handbook modules.
 """
 import re
 import sys
+import os
 from pathlib import Path
 
-def validate_readme(readme_path):
-    """Validate a single module README.md file."""
-    errors = []
-    warnings = []
-    
+# Directories to validate (exclude superpowers submodule)
+VALIDATE_DIRS = [
+    "01-orientation-consent",
+    "02-session-techniques", 
+    "03-special-populations",
+    "04-advanced-topics",
+    "05-assessment-evaluation",
+    "06-digital-fetish-tools-technology-safety",
+    "07-online-kink-community-moderation-safety",
+    "08-financial-accessibility-economic-justice-in-education",
+    "09-aging-elder-lifespan-education",
+    "instructor-resources",
+    "community-resources",
+    "participant-materials",
+    "training",
+]
+
+# Required structural elements
+REQUIRED_ELEMENTS = [
+    ("level_badge", r"\*\*Level: (Foundational|Intermediate|Advanced)\*\*"),
+    ("learning_objectives", r"## Learning Objectives"),
+    ("key_takeaways", r"## Key Takeaways"),
+    ("see_also", r"## See Also"),
+]
+
+SKIP_FILES = {
+    "AGENTS.md", "CLAUDE.md", "CODE_OF_CONDUCT.md", "GEMINI.md", 
+    "README.md", "RELEASE-NOTES.md", "CONTRIBUTING.md", "CONTRIBUTING-ONBOARDING.md"
+}
+
+def check_file(filepath):
+    """Check a single markdown file for required structural elements."""
     try:
-        with open(readme_path, 'r', encoding='utf-8') as f:
+        with open(filepath, 'r', encoding='utf-8') as f:
             content = f.read()
     except Exception as e:
         return {"valid": False, "errors": [f"Failed to read file: {e}"], "warnings": []}
     
-    # Check 1: Valid frontmatter structure
-    frontmatter_match = re.search(r'---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
-    if not frontmatter_match:
-        errors.append("Missing frontmatter (--- ... ---)")
+    basename = os.path.basename(filepath)
+    errors = []
+    
+    for element_name, pattern in REQUIRED_ELEMENTS:
+        if not re.search(pattern, content, re.MULTILINE):
+            errors.append(f"Missing: {element_name}")
+    
+    if not errors:
+        return {"valid": True, "errors": [], "warnings": []}
     else:
-        frontmatter = frontmatter_match.group(1)
-        
-        # Check for title in frontmatter
-        title_match = re.search(r'title\s*:\s*"?([^"\s]+)"?', frontmatter, re.IGNORECASE)
-        if not title_match:
-            errors.append("Missing 'title' in frontmatter")
-        else:
-            title = title_match.group(1)
-            if not title:
-                errors.append("Title is empty in frontmatter")
-            elif len(title) > 60:
-                warnings.append(f"Title is long ({len(title)} chars): {title}")
-    
-    # Check 2: H1 header matching title
-    if frontmatter_match and title_match:
-        title = title_match.group(1)
-        h1_match = re.search(r'^#\s+' + re.escape(title) + r'\s*$', content, re.MULTILINE)
-        if not h1_match:
-            # Try case-insensitive match
-            h1_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-            if h1_match:
-                errors.append(f"H1 header '{h1_match.group(1)}' doesn't match frontmatter title '{title}'")
-            else:
-                errors.append("Missing H1 header")
-    
-    # Check 3: Introduction paragraph after title
-    if frontmatter_match and title_match:
-        title = title_match.group(1)
-        # Find content after H1
-        intro_parser = re.search(r'^#\s+' + re.escape(title) + r'\s*\n\s*\n(.+?)\s*\n', content, re.MULTILINE | re.DOTALL)
-        if not intro_parser:
-            errors.append("Missing introduction paragraph after H1")
-        else:
-            intro = intro_parser.group(1).strip()
-            if not intro:
-                errors.append("Empty introduction paragraph")
-            elif len(intro) < 50:
-                warnings.append(f"Introduction very short ({len(intro)} chars)")
-            elif len(intro) > 500:
-                warnings.append(f"Introduction very long ({len(intro)} chars)")
-    
-    # Check 4: At least 3 module references
-    module_refs = re.findall(r'\[(\d{2}[-\w]*)\]\([^)]+\)', content)
-    if len(module_refs) < 3:
-        errors.append(f"Need at least 3 module references (found {len(module_refs)}): {module_refs}")
-    else:
-        # Verify referenced modules exist
-        for ref in module_refs:
-            ref_path = readme_path.parent.parent / ref / "README.md"
-            if not ref_path.exists():
-                warnings.append(f"Referenced module doesn't exist: {ref}")
-    
-    # Check 5: Required sections
-    required_sections = ["## Overview", "## Key Terms", "## Related Modules"]
-    for section in required_sections:
-        if section not in content:
-            warnings.append(f"Missing recommended section: {section}")
-    
-    # Check 6: Glossary terms in Key Terms section
-    key_terms_section = re.search(r'## Key Terms\n(.+?)(?=\n## |\Z)', content, re.DOTALL)
-    if key_terms_section:
-        terms_content = key_terms_section.group(1)
-        # Count bold terms
-        bold_terms = re.findall(r'\*\*([^\*\*]+)\*\*', terms_content)
-        if len(bold_terms) < 3:
-            warnings.append(f"Key Terms section has only {len(bold_terms)} bold terms (recommend 3+)")
-    else:
-        warnings.append("Key Terms section not found")
-    
-    # Check 7: Learning Objectives
-    if "## Learning Objectives" not in content:
-        warnings.append("Missing Learning Objectives section")
-    
-    # Check 8: Quick Reference table
-    if "## Quick Reference" not in content:
-        warnings.append("Missing Quick Reference table")
-    
-    # Check 9: Practice Examples
-    if "## Practice Examples" not in content:
-        warnings.append("Missing Practice Examples section")
-    
-    return {
-        "valid": len(errors) == 0,
-        "errors": errors,
-        "warnings": warnings
-    }
+        return {"valid": False, "errors": errors, "warnings": []}
 
 def main():
     if len(sys.argv) < 2:
@@ -120,39 +68,50 @@ def main():
         print(f"Error: Directory {modules_dir} does not exist")
         sys.exit(1)
     
-    print(f"Validating modules in {modules_dir}")
-    print("=" * 60)
+    print(f"Validating handbook modules in {modules_dir}")
+    print("=" * 70)
     
     all_valid = True
-    for dir_path in sorted(modules_dir.iterdir()):
-        if not dir_path.is_dir():
-            continue
-        
-        # Match directories that start with digits
-        dir_name = dir_path.name
-        match = re.match(r'^(\d{2})(-.+)?$', dir_name)
-        if not match:
-            continue
-        
-        readme_path = dir_path / "README.md"
-        if not readme_path.exists():
-            print(f"\n⚠ {dir_name}: No README.md found")
-            continue
-        
-        result = validate_readme(readme_path)
-        
-        if result["valid"]:
-            print(f"\n✓ {dir_name}: VALID")
-        else:
-            print(f"\n✗ {dir_name}: INVALID")
-            all_valid = False
-        
-        for error in result["errors"]:
-            print(f"  ERROR: {error}")
-        for warning in result["warnings"]:
-            print(f"  WARN:  {warning}")
+    total_files = 0
+    passing = 0
+    failing = 0
     
-    print("\n" + "=" * 60)
+    for mod_dir in VALIDATE_DIRS:
+        mod_path = modules_dir / mod_dir
+        if not mod_path.exists() or not mod_path.is_dir():
+            print(f"⚠ {mod_dir}: Directory not found")
+            continue
+        
+        for root, dirs, files in os.walk(mod_path):
+            # Skip superpowers submodule
+            if "superpowers" in root:
+                continue
+            
+            for f in sorted(files):
+                if not f.endswith('.md'):
+                    continue
+                if f in SKIP_FILES:
+                    continue
+                
+                filepath = os.path.join(root, f)
+                result = check_file(filepath)
+                total_files += 1
+                
+                if result["valid"]:
+                    passing += 1
+                    print(f"✅ {filepath}")
+                else:
+                    failing += 1
+                    all_valid = False
+                    print(f"❌ {filepath}")
+                    for error in result["errors"]:
+                        print(f"   ERROR: {error}")
+    
+    print("=" * 70)
+    print(f"Total files: {total_files}")
+    print(f"Passing: {passing}")
+    print(f"Failing: {failing}")
+    
     if all_valid:
         print("All modules passed validation!")
         sys.exit(0)

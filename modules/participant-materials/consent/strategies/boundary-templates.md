@@ -1,5 +1,23 @@
 # Accessible Consent Negotiation Templates
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Accessible Consent Negotiation Templates** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Boundary Communication Frameworks** - Demonstrate practical understanding and implementation of boundary communication frameworks
+1. **Apply Basic Boundary Template** - Demonstrate practical understanding and implementation of basic boundary template
+1. **Apply Audio Consent Template (for visually impaired)** - Demonstrate practical understanding and implementation of audio consent template (for visually impaired)
+
+ | **Module: participant-materials** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Boundary Communication Frameworks** - Understanding and applying boundary communication frameworks is essential for safe and effective practice
+- **Basic Boundary Template** - Understanding and applying basic boundary template is essential for safe and effective practice
+- **Audio Consent Template (for visually impaired)** - Understanding and applying audio consent template (for visually impaired) is essential for safe and effective practice
+- **Visual Consent Template (for hearing impaired)** - Understanding and applying visual consent template (for hearing impaired) is essential for safe and effective practice
+
 ## Boundary Communication Frameworks
 
 ### Basic Boundary Template
@@ -198,3 +216,10 @@
 *Version: 1.0*
 *Curated by: Consent Education Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core consent and communication principles
+- [Instructor Resources](../instructor-resources) - Instructor-facing materials
+- [Module Index](../../README.md) - Complete module overview
+

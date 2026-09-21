@@ -1,5 +1,22 @@
 # Accessibility Practice Scenarios
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Accessibility Practice Scenarios** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Scenario 1: Non-Verbal Negotiation for AAC User** - Demonstrate practical understanding and implementation of scenario 1: non-verbal negotiation for aac user
+1. **Apply Scenario 2: Sensory-Friendly Rope Workshop** - Demonstrate practical understanding and implementation of scenario 2: sensory-friendly rope workshop
+1. **Apply Scenario 3: Mobility-Inclusive Play Party** - Demonstrate practical understanding and implementation of scenario 3: mobility-inclusive play party
+
+ | **Module: training** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Scenario 1: Non-Verbal Negotiation for AAC User** - Understanding and applying scenario 1: non-verbal negotiation for aac user is essential for safe and effective practice
+- **Scenario 2: Sensory-Friendly Rope Workshop** - Understanding and applying scenario 2: sensory-friendly rope workshop is essential for safe and effective practice
+- **Scenario 3: Mobility-Inclusive Play Party** - Understanding and applying scenario 3: mobility-inclusive play party is essential for safe and effective practice
+
 ## Scenario 1: Non-Verbal Negotiation for AAC User
 **Profile**: Participant uses augmentative communication device (speech-generating app).  
 **Goal**: Negotiate impact play scene using device + visual supports.  
@@ -66,3 +83,10 @@
 *Version: 1.0*
 *Curated by: Accessibility Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [02-session-techniques](../02-session-techniques) - Session techniques
+- [Module Index](../../README.md) - Complete module overview
+

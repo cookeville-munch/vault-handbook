@@ -1,5 +1,23 @@
 # Advanced Topics Module 1: Rope Suspension Engineering Principles
 
+**Level: Advanced**
+## Learning Objectives
+
+1. **Understand Advanced Topics Module 1: Rope Suspension Engineering Principles** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply 1. Foundational Engineering Concepts** - Demonstrate practical understanding and implementation of 1. foundational engineering concepts
+1. **Apply 1.1 Static vs Dynamic Load Analysis** - Demonstrate practical understanding and implementation of 1.1 static vs dynamic load analysis
+1. **Apply 1.2 Force Distribution Mechanics** - Demonstrate practical understanding and implementation of 1.2 force distribution mechanics
+
+ | **Module: 04-advanced-topics** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **1. Foundational Engineering Concepts** - Understanding and applying 1. foundational engineering concepts is essential for safe and effective practice
+- **1.1 Static vs Dynamic Load Analysis** - Understanding and applying 1.1 static vs dynamic load analysis is essential for safe and effective practice
+- **1.2 Force Distribution Mechanics** - Understanding and applying 1.2 force distribution mechanics is essential for safe and effective practice
+- **2. Hardware Engineering & Validation** - Understanding and applying 2. hardware engineering & validation is essential for safe and effective practice
+
 ## 1. Foundational Engineering Concepts
 
 ### 1.1 Static vs Dynamic Load Analysis
@@ -146,3 +164,10 @@
   - Successful completion of 3 load-bearing tests
   - Written safety audit report for proposed setup
   - Validated emergency release drill under 1.5 seconds
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundational consent and safety
+- [02-session-techniques](../02-session-techniques) - Foundational techniques
+- [Module Index](../../README.md) - Complete module overview
+

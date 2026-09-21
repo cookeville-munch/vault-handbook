@@ -1,5 +1,23 @@
 # Pre-Session Safety Checklist for Instructors
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Pre-Session Safety Checklist for Instructors** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Environmental Safety Verification** - Demonstrate practical understanding and implementation of environmental safety verification
+1. **Apply Equipment Inspection Protocol** - Demonstrate practical understanding and implementation of equipment inspection protocol
+1. **Apply Participant Screening & Preparation** - Demonstrate practical understanding and implementation of participant screening & preparation
+
+ | **Module: instructor-resources** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
+
+## Key Takeaways
+
+- **Environmental Safety Verification** - Understanding and applying environmental safety verification is essential for safe and effective practice
+- **Equipment Inspection Protocol** - Understanding and applying equipment inspection protocol is essential for safe and effective practice
+- **Participant Screening & Preparation** - Understanding and applying participant screening & preparation is essential for safe and effective practice
+- **Consent & Communication Systems** - Understanding and applying consent & communication systems is essential for safe and effective practice
+
 ## Environmental Safety Verification
 - [ ] Room temperature maintained between 68-75°F (20-24°C)
 - [ ] Adequate ventilation with fresh air exchange
@@ -65,3 +83,10 @@
 *Version: 1.2*
 *Curated by: Safety Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core pedagogical framework
+- [05-assessment-evaluation](../05-assessment-evaluation) - Assessment and evaluation methods
+- [Module Index](../../README.md) - Complete module overview
+

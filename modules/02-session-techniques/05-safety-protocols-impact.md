@@ -1,8 +1,26 @@
 # Safety Protocols for Impact Play  
+
+**Level: Foundational** | **Module: 02-session-techniques** | **Prerequisites: 01-orientation-consent**
 ## Overview  
 Impact play safety protocols integrate inclusive design principles with structured accountability systems to ensure equitable risk management across diverse participant needs.
 
 ---
+
+## Learning Objectives
+
+1. **Understand Safety Protocols for Impact Play** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Overview** - Demonstrate practical understanding and implementation of overview
+1. **Apply Inclusive Communication Systems** - Demonstrate practical understanding and implementation of inclusive communication systems
+1. **Apply Disability-Adaptive Protocols** - Demonstrate practical understanding and implementation of disability-adaptive protocols
+
+
+
+## Key Takeaways
+
+- **Overview** - Understanding and applying overview is essential for safe and effective practice
+- **Inclusive Communication Systems** - Understanding and applying inclusive communication systems is essential for safe and effective practice
+- **Disability-Adaptive Protocols** - Understanding and applying disability-adaptive protocols is essential for safe and effective practice
+- **1. Sensory Processing Adaptations** - Understanding and applying 1. sensory processing adaptations is essential for safe and effective practice
 
 ## Inclusive Communication Systems  
 **Expanded Protocol Matrix:**  
@@ -335,3 +353,10 @@ Dashboard Elements
 - **Current Focus**: Peer review validation and documentation refinement  
 
 **Module Length**: ~1,250 lines of enhanced safety protocols
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [04-advanced-topics](../04-advanced-topics) - Advanced topics building on these techniques
+- [Module Index](../../README.md) - Complete module overview
+

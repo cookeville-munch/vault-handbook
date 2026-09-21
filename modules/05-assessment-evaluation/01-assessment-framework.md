@@ -1,5 +1,23 @@
 # Assessment & Evaluation Framework
 
+**Level: Intermediate**
+## Learning Objectives
+
+1. **Understand Assessment & Evaluation Framework** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Learning Outcome Domains** - Demonstrate practical understanding and implementation of learning outcome domains
+1. **Apply 1. Technical Proficiency Domain** - Demonstrate practical understanding and implementation of 1. technical proficiency domain
+1. **Apply 2. Communication & Negotiation Domain** - Demonstrate practical understanding and implementation of 2. communication & negotiation domain
+
+ | **Module: 05-assessment-evaluation** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Learning Outcome Domains** - Understanding and applying learning outcome domains is essential for safe and effective practice
+- **1. Technical Proficiency Domain** - Understanding and applying 1. technical proficiency domain is essential for safe and effective practice
+- **2. Communication & Negotiation Domain** - Understanding and applying 2. communication & negotiation domain is essential for safe and effective practice
+- **3. Emotional Intelligence & Self-Awareness Domain** - Understanding and applying 3. emotional intelligence & self-awareness domain is essential for safe and effective practice
+
 ## Learning Outcome Domains
 
 The kink training program evaluates competency across four interdependent domains, ensuring participants develop both technical proficiency and ethical maturity. Each domain has specific measurable outcomes that inform progression decisions.
@@ -183,3 +201,9 @@ Participants may appeal assessment decisions through:
 **Ongoing:** Participant suggestion system with monthly review and transparent response tracking
 
 This framework ensures assessment serves learning rather than gatekeeping, maintaining rigorous safety standards while supporting diverse growth trajectories within the community.
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Core orientation and consent
+- [Module Index](../../README.md) - Complete module overview
+

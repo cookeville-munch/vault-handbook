@@ -1,5 +1,23 @@
 # Community Crisis Response Plan
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Community Crisis Response Plan** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Overview** - Demonstrate practical understanding and implementation of overview
+1. **Apply Activation Criteria** - Demonstrate practical understanding and implementation of activation criteria
+1. **Apply Response Team Structure** - Demonstrate practical understanding and implementation of response team structure
+
+ | **Module: community-resources** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Overview** - Understanding and applying overview is essential for safe and effective practice
+- **Activation Criteria** - Understanding and applying activation criteria is essential for safe and effective practice
+- **Response Team Structure** - Understanding and applying response team structure is essential for safe and effective practice
+- **Crisis Leadership (3-5 members)** - Understanding and applying crisis leadership (3-5 members) is essential for safe and effective practice
+
 ## Overview
 This document outlines the community's coordinated response to crises affecting multiple members or the community as a whole. It complements individual crisis protocols with community-level activation procedures.
 
@@ -180,3 +198,10 @@ Community crisis response is triggered by:
 *Version: 1.0*
 *Curated by: Community Safety Committee*
 *License: CC-BY-SA 4.0*
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [Participant Materials](../participant-materials) - Participant-facing resources
+- [Module Index](../../README.md) - Complete module overview
+

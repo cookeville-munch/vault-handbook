@@ -1,5 +1,23 @@
 # Neurological Adaptation in Impact Play
 
+**Level: Foundational**
+## Learning Objectives
+
+1. **Understand Neurological Adaptation in Impact Play** - Explain the core concepts and significance of this topic within the kink training framework
+1. **Apply Understanding Sensory Learning Mechanisms** - Demonstrate practical understanding and implementation of understanding sensory learning mechanisms
+1. **Apply Threshold Calibration and Safety Margins** - Demonstrate practical understanding and implementation of threshold calibration and safety margins
+1. **Apply Neural Pathway Rewiring Through Experience** - Demonstrate practical understanding and implementation of neural pathway rewiring through experience
+
+ | **Module: 02-session-techniques** | **Prerequisites: 01-orientation-consent**
+
+
+## Key Takeaways
+
+- **Understanding Sensory Learning Mechanisms** - Understanding and applying understanding sensory learning mechanisms is essential for safe and effective practice
+- **Threshold Calibration and Safety Margins** - Understanding and applying threshold calibration and safety margins is essential for safe and effective practice
+- **Neural Pathway Rewiring Through Experience** - Understanding and applying neural pathway rewiring through experience is essential for safe and effective practice
+- **Safety Through Neurological Awareness** - Understanding and applying safety through neurological awareness is essential for safe and effective practice
+
 ## Understanding Sensory Learning Mechanisms
 
 When participants engage in impact play, their nervous system undergoes a fascinating process of adaptation. The first contact with new implements or intensity levels triggers heightened sensory perception, known as "sensory sensitization." This occurs as mechanoreceptors in the skin (Pacinian corpuscles for deep pressure, Meissner's corpuscles for vibration) become more reactive. Over repeated sessions, this leads to "sensory adaptation" where the same stimulus produces progressively less response - a protective mechanism preventing overload but also requiring intentional progression. As an instructor, I teach participants to recognize this neurobiological process through pre-session baselines and post-session debriefs. For instance, someone might initially report shock at a 5/10 impact on their back, but after three sessions might find that rating feels mild. Teaching this helps students understand why progression isn't linear and why their subjective experience will always evolve with practice.
@@ -38,3 +56,10 @@ The ultimate goal of teaching neurological adaptation is safety. When participan
   • How the mind-body dialogue changed
 
 These practices transform impact play from purely physical to deeply educational. When students articulate how a particular impact sequence made them feel - both physically and emotionally - they're engaging in advanced neurological learning.
+
+## See Also
+
+- [01-orientation-consent](../01-orientation-consent) - Foundation of consent and communication
+- [04-advanced-topics](../04-advanced-topics) - Advanced topics building on these techniques
+- [Module Index](../../README.md) - Complete module overview
+
