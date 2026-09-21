@@ -25,32 +25,59 @@ The `modules/superpowers/` directory is a git submodule containing an AI agent s
        - **Average section complexity**: ~4.5 minutes per section
 
 2. **Manual Pain Point Analysis** (User-led tasks)
-   - [ ] Review current materials for confusing content or poor organization
-   - [ ] Identify 3-5 specific pain points with concrete examples from the 68 core sections
-   - [ ] Create categorization of issues (content gaps, usability, structure)
-   - [ ] Prioritize using impact/effort matrix
+   - [ ] **Deferred** - Review current materials for confusing content or poor organization
+   - [ ] **Deferred** - Identify 3-5 specific pain points with concrete examples from the 68 core sections
+   - [ ] **Deferred** - Create categorization of issues (content gaps, usability, structure)
+   - [ ] **Deferred** - Prioritize using impact/effort matrix
 
 3. **Feedback System Setup**
-    - [x] **Partially Complete** - Tracking spreadsheet created (feedback_tracker.csv) with sample entry
-    - [x] **Complete** - Set up columns for: Section, Word Count, Est. Time, Actual Time, Quiz Score, Feedback Score
-    - [x] **Complete** - Established feedback categories: Content, Structure, Presentation
-    - [ ] **Deferred** - Begin collecting initial feedback from users (no social resources/time available today)
+   - [x] **Partially Complete** - Tracking spreadsheet created (feedback_tracker.csv) with sample entry
+   - [x] **Complete** - Set up columns for: Section, Word Count, Est. Time, Actual Time, Quiz Score, Feedback Score
+   - [x] **Complete** - Established feedback categories: Content, Structure, Presentation
+   - [ ] **Deferred** - Begin collecting initial feedback from users (no social resources/time available today)
 
 4. **Data Analysis**
-   - [ ] Compare manual pain point analysis with estimated time data
-   - [ ] Identify patterns between section complexity and user difficulties
-   - [ ] Create prioritized improvement list
+   - [ ] **Deferred** - Compare manual pain point analysis with estimated time data
+   - [ ] **Deferred** - Identify patterns between section complexity and user difficulties
+   - [ ] **Deferred** - Create prioritized improvement list
 
 ### Deliverables
-- **Core handbook metrics spreadsheet** (68 sections, superpowers excluded)
-- **Pain point analysis report** (user compilation from core sections)
-- **Prioritized improvement list**
-- **Feedback collection system** (initial setup)
-- **Baseline metrics documentation** (current section complexity profiles for core content)
+- [x] **Core handbook metrics spreadsheet** (68 sections, superpowers excluded)
+- [ ] Pain point analysis report (user compilation from core sections) - deferred
+- [ ] Prioritized improvement list - deferred
+- [x] **Feedback collection system** (initial setup)
+- [x] **Baseline metrics documentation** (current section complexity profiles for core content)
 
 
 ## Phase 2: Core Content Enhancement (Weeks 3-6)
 **Objective**: Implement foundational improvements with measurable outcomes
+
+### Tasks
+1. **Orientation & Consent Module (Phase 2 Flagship)**
+   - [ ] Revise content with case studies, quizzes, and practical exercises
+   - [ ] Add learning objectives at section start
+   - [ ] Implement "Key Takeaways" summaries
+   - [ ] Develop pilot version with 15-20 learners
+
+2. **Structural Improvements**
+   - [ ] Add progression indicators (foundational/intermediate/advanced)
+   - [ ] Implement cross-referencing with "See Also" sections
+   - [ ] Update visual formatting standards
+
+3. **Pilot Testing**
+   - [ ] Administer pilot tests with structured feedback form
+   - [ ] Measure quiz scores, completion times, satisfaction
+   - [ ] Collect 30+ hours of user feedback
+
+4. **Data Analysis**
+   - [ ] Compare pilot metrics to baseline
+   - [ ] Calculate improvement rates against targets
+   - [ ] Document quantitative success metrics
+
+### Deliverables
+- Revised Orientation & Consent module
+- Pilot feedback report
+- Structured improvement benchmarks
 
 ### Tasks
 1. **Orientation & Consent Module (Phase 2 Flagship)**

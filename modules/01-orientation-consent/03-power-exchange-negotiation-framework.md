@@ -1,5 +1,24 @@
 # Power Exchange Dynamics: Understanding Negotiation
 
+## Learning Objectives
+
+By the end of this section, you will be able to:
+1. **Describe the role of negotiation** in power exchange dynamics and explain why it is a prerequisite for ethical play
+2. **Apply structured negotiation techniques** including environment setup, role definition, boundary setting, and aftercare planning
+3. **Categorize limits** using the Hard Red / Soft Yellow / Green Inclusion / Blue Curiosity framework
+4. **Select appropriate negotiation tools** for different relationship types (new exploration, short-term play, long-term dynamics)
+5. **Demonstrate how to renegotiate** periodically and handle significant changes in circumstances
+
+## Key Takeaways
+
+- **Negotiation is the foundation of power exchange** — all BDSM dynamics are built upon explicit, consensual agreements about what will and won't happen
+- **The negotiation environment matters** — it should be neutral, comfortable, and separate from the play space; never negotiate when stressed, exhausted, or under the influence
+- **Limits need categorization** — Hard Red (absolute no), Soft Yellow (maybe with negotiation), Green (interested), Blue (curiosity)
+- **Aftercare is part of negotiation** — not an afterthought; discuss physical and emotional needs before play begins
+- **Negotiation is ongoing** — renegotiate regularly, especially after significant life changes or emotional reactions
+
+---
+
 ## The Psychology of Power Exchange Negotiation
 
 The dynamics of power exchange in kink and BDSM are incredibly diverse, ranging from brief role-playing encounters to long-term structured relationships where participants maintain ongoing power exchange dynamics. What unites these seemingly disparate experiences is the critical importance of intentional, well-structured negotiation - a process that many newcomers underestimate as their fantasy-driven imaginations run wild with the erotic potential of role reversal.
@@ -81,7 +100,7 @@ For exploring limits, I employ a color-coded system that helps participants cate
 
 - **Hard Red Limits**: Activities that are absolutely off-limits regardless of context
 - **Soft Yellow Limits**: Activities that might be explored with proper negotiation, preparation, and consent
-- **Green Inclusion Zones**: Activities they're interested in trying and open to exploring
+- **Green Inclusion Zone**: Activities they're interested in trying and open to exploring
 - **Blue Curiosity Niches**: Activities they know little about but might be willing to research
 
 This framework provides clarity and reduces anxiety by making boundaries and curiosities explicit and manageable.
@@ -128,3 +147,28 @@ By treating negotiation as a skill to be learned and practiced, rather than a na
 Power exchange dynamics offer immense potential for connection, fulfillment, and personal growth when approached with intentionality and respect. However, this potential can only be realized when participants commit to the rigorous work of thoughtful, thorough negotiation that prioritizes mutual understanding and safety.
 
 I always conclude my sessions on power exchange negotiation by reminding students that: **"The most powerful act within a BDSM dynamic is not the command, the kiss, or the discipline - it's the consent."** When that consent is carefully negotiated, respectfully communicated, and continuously affirmed, it creates the foundation for experiences that can be both profoundly erotic and ethically grounded.
+
+## Practical Application Exercise
+
+**Case Study: The Unspoken Boundary**
+
+*Scenario*: Taylor has been in a short-term power exchange dynamic for two weeks. During the initial negotiation, Taylor disclosed that they have a hard limit on breath play and a soft limit on public humiliation. Two weeks later, their partner introduces a scene that combines mild public embarrassment with a new technique — a scarf over the face. Taylor freezes, unsure whether to agree or refuse, and doesn't speak up until their partner notices the discomfort.
+
+*Questions to consider:*
+1. What went wrong in this scenario? How could it have been prevented?
+2. How does a "soft limit" differ from a "hard limit" in practice?
+3. What could Taylor have done differently during negotiation to clarify their soft limits?
+4. How could the partner have created a safer space for Taylor to voice hesitation?
+
+*Discussion*: This case shows that even well-negotiated scenarios can have gaps — especially around soft limits that weren't fully explored. It also highlights the importance of ongoing check-ins and a partner's willingness to listen to hesitation, not just explicit "no"s.
+
+## Quick Quiz
+
+1. **True or False**: Negotiation is a one-time event that happens before the first scene.
+2. **Multiple Choice**: Which of the following is a "Soft Yellow" limit?
+   - A) Something you absolutely will not do under any circumstances
+   - B) Something you're curious about but know nothing about
+   - C) Something that might be explored with proper negotiation and preparation
+   - D) Something you do every session without thinking
+3. **Short Answer**: Name four components of the Comprehensive Power Exchange Negotiation Worksheet.
+4. **Scenario Application**: Your partner wants to try something new but you're unsure if it's a hard or soft limit. What's a constructive way to respond?
