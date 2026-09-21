@@ -34,6 +34,14 @@ jobs:
             exit 1
           fi
           echo "✓ SVG conversion completed successfully"
+          
+          # Special handling for electrical play diagrams
+          if [ -f diagrams/electrical-play-diagram.svg ]; then
+            echo "✓ Electrical play diagram converted"
+          fi
+          if [ -f diagrams/tens-unit-placement.svg ]; then
+            echo "✓ TENS unit placement chart converted"
+          fi
 
       - name: Commit and push SVGs
         run: |
