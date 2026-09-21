@@ -1,2 +1,2 @@
 Section,Feedback Type,Description,Priority (High/Med/Low),Status,Notes
-04-safety-protocols,Content,The equipment inspection checklist lacks visual diagrams,High,Open,Add diagrams for carabiners, rope wear, and hardware checks
+04-safety-protocols,Content,The equipment inspection checklist lacks visual diagrams,High,Resolved,Added carabiner inspection flowchart, rope wear identification guide, and hardware inspection flowchart to 04-safety-protocols.md
