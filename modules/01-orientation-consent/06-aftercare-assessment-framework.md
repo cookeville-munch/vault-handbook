@@ -1,5 +1,9 @@
 # Session Feedback and Aftercare Implementation Guide
 
+**Level: Intermediate** | **Module: Orientation & Consent** | **Prerequisites: 01-affirmative-consent-principles, 03-power-exchange-negotiation-framework**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -185,3 +189,11 @@ When our students learn to track their own wellbeing comprehensively, they creat
 Aftercare effectiveness in kink education extends beyond simple satisfaction metrics. Success indicators include: reducing risks, improving recovery health, enhancing learning integration, and increasing relational competence. Tracking these metrics helps the program demonstrate its educational value while ensuring students experience comprehensive support throughout their journey.
 
 No program succeeds without intentionally measuring its effectiveness. Our aftercare framework provides comprehensive tracking methods to monitor progress and adapt strategies, with multiple qualitative and quantitative measures ensuring educational integrity and continuous improvement.
+## See Also
+
+- [03-power-exchange-negotiation-framework](03-power-exchange-negotiation-framework.md) - Negotiation and aftercare planning
+- [07-closing-reflections](07-closing-reflections.md) - Closing reflections and affirmations
+- [05-assessment-evaluation/01-assessment-framework](../../05-assessment-evaluation/01-assessment-framework.md) - Competency assessment
+- [Module Index](../../../README.md) - Complete module overview
+
+---

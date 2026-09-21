@@ -1,5 +1,9 @@
 # Final Reflections and Affirmations
 
+**Level: Advanced** | **Module: Orientation & Consent** | **Prerequisites: All previous Orientation & Consent modules**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -73,3 +77,11 @@ You are not expected to be perfect. You are expected to be present, honest, and 
 Boundaries represent the personal framework we establish. The teaching methodology includes practical tools for identifying and communicating individual values. Through real-life examples, participants learn how boundaries can be flexible and mutually beneficial. This approach empowers them to cultivate self-awareness and resilience. Personal growth emerges from exploring not just sexual boundaries but all dimensions of personal integrity.
 
 Connection emerges from shared vulnerability. The community becomes a powerful educational tool when we move beyond performance to authenticity. By creating safe spaces for honest expression, we enable genuine learning. This environment transforms individuals' understanding of their own capabilities and helps them build authentic relationships and confidence that extends beyond the immediate educational context. If you have any questions about these approaches or would like to explore specific scenarios, please reach out! I'm excited to continue this journey of learning and growth with you.
+## See Also
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Revisit the foundations of consent
+- [03-power-exchange-negotiation-framework](03-power-exchange-negotiation-framework.md) - Negotiation and relationship maintenance
+- [02-session-techniques](../../02-session-techniques) - Continue to Session Techniques
+- [Module Index](../../../README.md) - Complete module overview
+
+---

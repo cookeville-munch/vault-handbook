@@ -1,5 +1,9 @@
 # Understanding Affirmative Consent in Kink and BDSM Contexts
 
+**Level: Foundational** | **Module: Orientation & Consent** | **Prerequisites: None**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -58,5 +62,12 @@ When teaching affirmative consent to newcomers to the kink community, I break it
    - D) Ongoing revocability
 3. **Short Answer**: Why should non-verbal cues never be the SOLE basis for consent in kink scenarios?
 4. **Scenario Application**: You're negotiating with a new partner who mentions they're "open to trying everything." How would you respond to ensure you're obtaining affirmative, informed consent?
+
+## See Also
+
+- [02-ongoing-communication-checkins](02-ongoing-communication-checkins.md) - Maintaining consent throughout play
+- [03-power-exchange-negotiation-framework](03-power-exchange-negotiation-framework.md) - Negotiating power dynamics
+- [04-safety-protocols](04-safety-protocols.md) - Safety protocols and risk assessment
+- [Module Index](../../../README.md) - Complete module overview
 
 ---

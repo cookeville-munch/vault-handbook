@@ -1,5 +1,9 @@
 # Power Exchange Dynamics: Understanding Negotiation
 
+**Level: Intermediate** | **Module: Orientation & Consent** | **Prerequisites: 01-affirmative-consent-principles, 02-ongoing-communication-checkins**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -172,3 +176,13 @@ I always conclude my sessions on power exchange negotiation by reminding student
    - D) Something you do every session without thinking
 3. **Short Answer**: Name four components of the Comprehensive Power Exchange Negotiation Worksheet.
 4. **Scenario Application**: Your partner wants to try something new but you're unsure if it's a hard or soft limit. What's a constructive way to respond?
+
+## See Also
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Foundation of affirmative consent
+- [02-ongoing-communication-checkins](02-ongoing-communication-checkins.md) - Ongoing communication during play
+- [04-safety-protocols](04-safety-protocols.md) - Safety protocols and risk assessment
+- [06-aftercare-assessment-framework](06-aftercare-assessment-framework.md) - Aftercare and assessment
+- [Module Index](../../../README.md) - Complete module overview
+
+---

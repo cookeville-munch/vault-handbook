@@ -1,5 +1,9 @@
 # Safety Protocols in Kink and BDSM Play
 
+**Level: Foundational** | **Module: Orientation & Consent** | **Prerequisites: 01-affirmative-consent-principles**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -185,7 +189,21 @@ graph TB
 2. **Scene Setup Zone** → Only verified equipment, arranged by use sequence
 3. **Emergency Access Zone** → Unobstructed, within 3 steps of scene center
 
-## Equipment Inspection Visual Guides
+## See Also
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Foundation of affirmative consent
+- [02-ongoing-communication-checkins](02-ongoing-communication-checkins.md) - Ongoing communication during play
+- [05-safety-protocols-advanced](05-safety-protocols-advanced.md) - Advanced safety protocols
+- [Module Index](../../../README.md) - Complete module overview
+
+---
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Foundation of affirmative consent
+- [02-ongoing-communication-checkins](02-ongoing-communication-checkins.md) - Ongoing communication during play
+- [05-safety-protocols-advanced](05-safety-protocols-advanced.md) - Advanced safety protocols
+- [Module Index](../../../README.md) - Complete module overview
+
+---
 
 ### 1. Carabiner Safety Inspection Diagram
 ```mermaid
@@ -307,3 +325,11 @@ graph TB
 1. **Inspection Zone** → Complete all checks before moving gear to Scene Setup
 2. **Scene Setup Zone** → Only verified equipment, arranged by use sequence
 3. **Emergency Access Zone** → Unobstructed, within 3 steps of scene center
+## See Also
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Foundation of affirmative consent
+- [02-ongoing-communication-checkins](02-ongoing-communication-checkins.md) - Ongoing communication during play
+- [05-safety-protocols-advanced](05-safety-protocols-advanced.md) - Advanced safety protocols
+- [Module Index](../../../README.md) - Complete module overview
+
+---

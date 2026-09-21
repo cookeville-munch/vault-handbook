@@ -1,5 +1,7 @@
 ## Safety Protocols Expanded: Equipment, Environment, and Continuous Vigilance
 
+**Level: Intermediate** | **Module: Orientation & Consent** | **Prerequisites: 04-safety-protocols**
+
 When teaching safety protocols, I emphasize that safety isn't a one-time checklist but a continuous process woven into the fabric of play. This section expands on the foundational concepts from our earlier safety discussion by diving deeper into three critical pillars: equipment safety, environmental preparation, and continuous vigilance during scenes.
 
 **Equipment Safety Protocols: From Inspection to Maintenance**  
@@ -44,3 +46,11 @@ These practices are embedded in the program through simulated play scenarios whe
 3) Choosing appropriate medical interventions for common issues (e.g., treating a compression injury without disrupting the scene entirely)  
 
 By framing safety as an active, attention-demanding process rather than a preparatory phase, students develop the situational awareness needed for responsible play. This module's exercises culminate in a "vigilance challenge" where students monitor a simulated scene video and identify safety breaches before they escalate, ensuring that psychological readiness is as developed as physical technique.
+## See Also
+
+- [04-safety-protocols](04-safety-protocols.md) - Foundational safety protocols
+- [02-session-techniques/01-impact-play-fundamentals](../../02-session-techniques/01-impact-play-fundamentals.md) - Impact play safety application
+- [04-advanced-topics/01-rope-suspension-engineering](../../04-advanced-topics/01-rope-suspension-engineering.md) - Advanced rope safety
+- [Module Index](../../../README.md) - Complete module overview
+
+---

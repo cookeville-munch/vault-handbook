@@ -1,5 +1,9 @@
 # Ongoing Communication: The Lifeline of Safe Play
 
+**Level: Foundational** | **Module: Orientation & Consent** | **Prerequisites: 01-affirmative-consent-principles**
+
+---
+
 ## Learning Objectives
 
 By the end of this section, you will be able to:
@@ -72,5 +76,12 @@ Most importantly, I teach that receiving feedback - especially when it involves 
    - D) No signals needed if the scene was negotiated well
 3. **Short Answer**: Why might a traffic light system need to be enhanced for impact play?
 4. **Scenario Application**: You're teaching a new dominant how to check in during a scene. How would you coach them to make the check-in feel natural and non-interruptive?
+
+## See Also
+
+- [01-affirmative-consent-principles](01-affirmative-consent-principles.md) - Foundation of affirmative consent
+- [03-power-exchange-negotiation-framework](03-power-exchange-negotiation-framework.md) - Negotiating power dynamics
+- [04-safety-protocols](04-safety-protocols.md) - Safety protocols and risk assessment
+- [Module Index](../../../README.md) - Complete module overview
 
 ---
