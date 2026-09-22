@@ -17,7 +17,7 @@ This checklist ensures all modules in the kink handbook meet documentation stand
 
 ### 3. Module References (Minimum 3)
 - [ ] At least 3 `[module-name](path)` references
-- [ ] All referenced modules exist in `content/modules/`
+- [ ] All referenced modules exist in `modules/`
 - [ ] References use numeric prefix format (e.g., `01-test`)
 
 ### 4. Required Sections
@@ -81,10 +81,10 @@ This checklist ensures all modules in the kink handbook meet documentation stand
 
 ```bash
 # Run structural validation
-python3 scripts/validation/validate_structure.py content/modules
+python3 scripts/validation/validate_structure.py modules
 
 # Check link integrity
-npx markdown-link-check content/modules/**/*.md
+npx markdown-link-check modules/**/*.md
 
 # Validate Mermaid diagrams (if present)
 npx mmdc -i diagrams/module-flow.js -o /dev/null --quiet
@@ -96,10 +96,10 @@ When enabled, these checks will run automatically:
 ```yaml
 # .github/workflows/module-validation.yml
 - name: Validate Module Structure
-  run: python3 scripts/validation/validate_structure.py content/modules
+  run: python3 scripts/validation/validate_structure.py modules
   
 - name: Check Links
-  run: npx markdown-link-check content/modules/**/*.md
+  run: npx markdown-link-check modules/**/*.md
   
 - name: Generate Docs
   run: python3 scripts/generate/generate_module_index.py

@@ -22,7 +22,7 @@ graph TD
 
 ### 1. File Structure Validation
 ```
-content/modules/
+modules/
 ├── 01-orientation-consent/
 │   ├── 01-affirmative-consent-principles.md
 │   ├── 02-ongoing-communication-checkins.md
@@ -107,21 +107,21 @@ graph LR
 
 ### Full Validation:
 ```bash
-python3 scripts/validation/validate_structure.py --modules-dir content/modules
+python3 scripts/validation/validate_structure.py --modules-dir modules
 ```
 
 ### Module-Specific:
 ```bash
 # Validate only foundational modules
-python3 scripts/validation/validate_structure.py --modules-dir content/modules --modules 01 02 03
+python3 scripts/validation/validate_structure.py --modules-dir modules --modules 01 02 03
 
 # Validate specific module
-python3 scripts/validation/validate_structure.py --modules-dir content/modules --modules 01
+python3 scripts/validation/validate_structure.py --modules-dir modules --modules 01
 ```
 
 ### With Output File:
 ```bash
-python3 scripts/validation/validate_structure.py --modules-dir content/modules --output validation_report.json
+python3 scripts/validation/validate_structure.py --modules-dir modules --output validation_report.json
 ```
 
 ## Error Resolution Guide
@@ -131,7 +131,7 @@ python3 scripts/validation/validate_structure.py --modules-dir content/modules -
 | Missing frontmatter field | Add required field to file header |
 | Invalid naming | Rename file to match `NN-description.md` |
 | Broken cross-reference | Fix link path or remove reference |
-| Directory not found | Ensure module exists in `content/modules/` |
+| Directory not found | Ensure module exists in `modules/` |
 
 ## Integration Points
 

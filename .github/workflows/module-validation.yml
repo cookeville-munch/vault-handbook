@@ -3,7 +3,7 @@ on:
   pull_request:
     branches: [main]
     paths:
-      - 'content/modules/**'
+      - 'modules/**'
       - 'scripts/validation/validate_structure.py'
 
 jobs:

@@ -214,7 +214,7 @@ def generate_dependency_matrix(modules_info):
 
 def main():
     parser = argparse.ArgumentParser(description='Generate module index and glossary')
-    parser.add_argument('--modules-dir', default='content/modules', help='Root directory containing module folders')
+    parser.add_argument('--modules-dir', default='modules', help='Root directory containing module folders')
     parser.add_argument('--output-index', default='docs/index/generated_module_toc.md', help='Output path for module table of contents')
     parser.add_argument('--output-glossary', default='docs/glossary/generated_module_glossary.md', help='Output path for terminology glossary')
     parser.add_argument('--output-matrix', default='docs/dependencies/generated_dependency_matrix.md', help='Output path for dependency matrix')

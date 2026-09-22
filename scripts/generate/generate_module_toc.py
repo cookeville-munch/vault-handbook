@@ -39,8 +39,8 @@ def extract_description(md_path):
 
 def main():
     parser = argparse.ArgumentParser()
-    parser.add_argument('--modules-dir', default='content/modules', help='Root directory containing module folders')
-    parser.add_argument('--validation-report', default='content/modules/validation_report.json', help='Validation report JSON')
+    parser.add_argument('--modules-dir', default='modules', help='Root directory containing module folders')
+    parser.add_argument('--validation-report', default='modules/validation_report.json', help='Validation report JSON')
     parser.add_argument('--output', required=True, help='Output markdown file path')
     args = parser.parse_args()
 

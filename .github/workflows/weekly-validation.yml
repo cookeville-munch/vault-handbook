@@ -40,13 +40,13 @@ jobs:
       - name: Run link checking
         id: link-check
         run: |
-          npx markdown-link-check content/modules/**/*.md --config .markdown-link-check.json || true
+          npx markdown-link-check modules/**/*.md --config .markdown-link-check.json || true
           if [ $? -ne 0 ]; then echo "Link check failures found"; exit 1; fi
 
       - name: Run accessibility audit
         id: accessibility-check
         run: |
-          npx axe content/modules/**/*.md --accessibility-ruledecision --error-count 0 || true
+          npx axe modules/**/*.md --accessibility-ruledecision --error-count 0 || true
           if [ $? -ne 0 ]; then echo "Accessibility violations found"; exit 1; fi
 
       - name: Upload validation log

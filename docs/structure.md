@@ -56,14 +56,14 @@ When existing directory numbers conflict with new module numbers:
 
 ## Migration Strategy
 
-The migration from `/modules` to `/content/modules` enables:
+The migration from the legacy migration to the unified `modules/` structure enables:
 - **Centralized organization** under a content container
 - **Consistent numbering** for future expansion
 - **Structured validation** via GitHub Actions
 - **Automatic navigation updates** for README.md and new_toc.md
 
 ### Migration Phases
-1. **Phase 1**: Copy existing modules to `/content/modules` (completed)
+1. **Phase 1**: Copy existing modules to `modules/` (completed)
 2. **Phase 2**: Create new advanced modules (10-advanced-fire-play, 11-advanced-sharps-play)
 3. **Phase 3**: Clean up legacy `/modules` directory (pending)
 4. **Phase 4**: Finalize cleanup script for legacy directory removal
@@ -71,14 +71,14 @@ The migration from `/modules` to `/content/modules` enables:
 ## Directory Relationships
 
 ```
-content/modules/               ← Primary location for all modules
+modules/               ← Primary location for all modules
   ├── fire-play/
   │   └── 10-advanced-fire-play.md
   ├── sharps-play/
   │   └── 11-advanced-sharps-play.md
   └── ... (existing modules 01-09)
 
-modules/                       ← Legacy source directory (to be archived)
+modules/                     ← Current unified module location
   ├── 01-orientation-consent/
   ├── 02-session-techniques/
   ...
@@ -88,7 +88,7 @@ modules/                       ← Legacy source directory (to be archived)
 ## Future Expansion Protocol
 1. **Add New Module**:
    - Choose next available number (12, 13...)
-   - Create directory structure under `content/modules/NN-new-name/`
+   - Create directory structure under `modules/NN-new-name/`
    - Add metadata in module file frontmatter
    - Content automatically appears in navigation
 

@@ -22,19 +22,19 @@ Electrical Play provides a structured framework for incorporating low‑current 
 
 This module builds upon:
 
-- [01-orientation-consent](content/modules/01-orientation-consent/README.md) - Consent negotiation for edge‑play activities
-- [02-training-essential](content/modules/02-training-essential/README.md) - Instructional design for technical skill acquisition
-- [04-advanced-topics](content/modules/04-advanced-topics/README.md) - Advanced risk management and scene engineering
+- [01-orientation-consent](../01-orientation-consent/) - Consent negotiation for edge-play activities
+- [02-session-techniques](../02-session-techniques/) - Instructional design for technical skill acquisition
+- [04-advanced-topics](../04-advanced-topics/) - Advanced risk management and scene engineering
 
 This module connects with:
 
-- [06-digital-fetish-tools-technology-safety](content/modules/06-digital-fetish-tools-technology-safety/README.md) - Device safety standards and firmware considerations
-- [08-financial-accessibility-economic-justice-in-education](content/modules/08-financial-accessibility-economic-justice-in-education/README.md) - Cost‑effective equipment sourcing
+- [06-digital-fetish-tools-technology-safety](../06-digital-fetish-tools-technology-safety/) - Device safety standards and firmware considerations
+- [08-financial-accessibility-economic-justice-in-education](../08-financial-accessibility-economic-justice-in-education/) - Cost-effective equipment sourcing
 
 And this module also shares concepts with:
 
-- [05-assessment-evaluation](content/modules/05-assessment-evaluation/README.md) - Competency assessment for electro‑play practitioners
-- [07-online-kink-community-moderation-safety](content/modules/07-online-kink-community-moderation-safety/README.md) - Online resource vetting for device recommendations
+- [05-assessment-evaluation](../05-assessment-evaluation/) - Competency assessment for electro-play practitioners
+- [07-online-kink-community-moderation-safety](../07-online-kink-community-moderation-safety/) - Online resource vetting for device recommendations
 
 ## Practice Examples
 

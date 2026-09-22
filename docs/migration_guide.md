@@ -1,13 +1,13 @@
 # Migration Guide: Legacy to Content Module Structure
 
 ## Overview
-This document provides step-by-step instructions for migrating the legacy `/modules` directory to the new `/content/modules` structure, preserving all content and metadata.
+This document provides step-by-step instructions for migrating the legacy `/modules` directory to the `modules/` structure, preserving all content and metadata.
 
 ## Migration Status
 - **Current Phase**: Completed
 - **Migration Date**: 2026-07-11
 - **Original Location**: `/modules/`
-- **New Location**: `/content/modules/`
+- **New Location**: `/modules/`
 
 ## Step-by-Step Migration Process
 
@@ -21,17 +21,17 @@ This document provides step-by-step instructions for migrating the legacy `/modu
 2. **Verify target structure**
    ```bash
    # Ensure content directory exists
-   mkdir -p content/modules
+   mkdir -p modules
    ```
 
 ### Phase 2: Content Migration (Completed)
 ```bash
 # Copy all existing modules
-rsync -av modules/ content/modules/
+rsync -av modules/ modules/
 
 # Create new advanced module directories
-mkdir -p content/modules/fire-play
-mkdir -p content/modules/sharps-play
+mkdir -p modules/fire-play
+mkdir -p modules/sharps-play
 ```
 
 ### Phase 3: New Module Creation (Completed)
@@ -50,7 +50,7 @@ mkdir -p content/modules/sharps-play
 ### Phase 5: Validation (Completed)
 ```bash
 # Verify all modules migrated correctly
-diff -r modules/ content/modules/ | grep -v "Only in modules/superpowers"
+diff -r modules/ modules/ | grep -v "Only in modules/superpowers"
 ```
 
 ## Directory Structure Changes
@@ -76,7 +76,7 @@ modules/
 
 ### After Migration
 ```
-content/modules/
+modules/
 ├── 01-orientation-consent/
 ├── 02-session-techniques/
 ├── 03-special-populations/
@@ -98,7 +98,7 @@ content/modules/
 ```
 
 ## Key Changes
-1. **Centralized location**: All modules now under `/content/modules/`
+1. **Centralized location**: All modules now under `/modules/`
 2. **Consistent numbering**: New advanced modules use sequential numbers (10, 11)
 3. **Preserved structure**: All original content and directories maintained
 4. **Enhanced navigation**: Auto-generated links in README.md and new_toc.md
@@ -106,7 +106,7 @@ content/modules/
 ## Rollback Procedure (if needed)
 ```bash
 # Restore original structure
-rm -rf content/modules/
+rm -rf modules/
 tar -xzf modules-backup-YYYYMMDD.tar.gz
 ./update_navigation.sh
 ```

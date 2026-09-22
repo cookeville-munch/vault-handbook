@@ -12,8 +12,8 @@ def main():
     import argparse
     parser = argparse.ArgumentParser()
     parser.add_argument('--output', required=True, help='Output .md file')
-    parser.add_argument('--validation', default='content/modules/validation_report.json')
-    parser.add_argument('--modules-dir', default='content/modules')
+    parser.add_argument('--validation', default='modules/validation_report.json')
+    parser.add_argument('--modules-dir', default='modules')
     args = parser.parse_args()
     
     # Load validation report if it exists

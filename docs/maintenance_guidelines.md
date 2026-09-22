@@ -92,7 +92,7 @@ All modules must include:
 - **Special cases**: Advanced topics start at 10 to maintain spacing
 
 ### Structure Requirements
-- Each module must be in its own directory under `content/modules/`
+- Each module must be in its own directory under `modules/`
 - All content files must be Markdown (.md) extension
 - Module directories should contain at least one content file
 - Avoid nesting modules within other modules unless logically grouped
@@ -103,10 +103,10 @@ All modules must include:
 1. Run local validation:
    ```bash
    # Check frontmatter
-   grep -L "title:" content/modules/*/*/*.md
+   grep -L "title:" modules/*/*/*.md
    
    # Verify naming
-   find content/modules -name "*.md" | grep -vE "^content/modules/[0-9]{2}-advanced-[a-z0-9-]+\.md$"
+   find modules -name "*.md" | grep -vE "^modules/[0-9]{2}-advanced-[a-z0-9-]+\.md$"
    ```
 2. Run navigation update
 3. Commit with descriptive message
@@ -146,7 +146,7 @@ The GitHub Actions workflow (`pr-validation.yml`) automatically validates:
 ### Content Migration Issues
 **Symptoms**: Content discrepancies between old and new locations
 **Solutions**:
-1. Run diff check: `diff -r modules/ content/modules/`
+1. Run diff check: `diff -r modules/ modules/`
 2. Verify file permissions
 3. Check for symbolic link issues
 4. Re-run migration if necessary

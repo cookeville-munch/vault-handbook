@@ -22,8 +22,8 @@ git checkout -b feature/your-module-name upstream/master
 ./scripts/create_new_module.sh 12 "advanced-taxi-play" "Your Name" "intermediate"
 ```
 This creates:
-- `content/modules/12-advanced-taxi-play/`
-- `content/modules/12-advanced-taxi-play/12-advanced-taxi-play.md`
+- `modules/12-advanced-taxi-play/`
+- `modules/12-advanced-taxi-play/12-advanced-taxi-play.md`
 - Updates navigation automatically
 
 ### 4. Add Your Content
@@ -35,10 +35,10 @@ Edit the generated file with your expertise. Replace placeholder sections with s
 ./update_navigation.sh
 
 # Validate all modules
-python3 scripts/validation/validate_structure.py --modules-dir content/modules
+python3 scripts/validation/validate_structure.py --modules-dir modules
 
 # Check for link issues (requires Node.js)
-npx markdown-link-check content/modules/**/*.md --config .markdown-link-check.json
+npx markdown-link-check modules/**/*.md --config .markdown-link-check.json
 ```
 
 ### 6. Commit & Push

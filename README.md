@@ -36,9 +36,7 @@ An inclusive, accessible, and evidence-based educational resource for kink and B
 
 ## Advanced Topics
 
-- [Electrical Play](modules/09-aging-elder-lifespan-education/) — violet wand, TENS unit safety, and electro-stimulation protocols
-- [Fire Play](content/modules/fire-play/10-advanced-fire-play.md) — fire safety, fuel selection, and burn treatment
-- [Sharps Play](content/modules/sharps-play/11-advanced-sharps-play.md) — knife safety, cutting protocols, and emergency procedures
+- [Electrical Play](modules/10-electrical-play/) — violet wand, TENS unit safety, and electro-stimulation protocols
 
 ## Module Navigation
 

@@ -10,8 +10,8 @@ This document demonstrates the CI validation process for module changes using th
 This PR updates the affirmative consent principles documentation in the 01-orientation-consent module to reflect updated guidelines.
 
 ### Files Changed:
-- `content/modules/01-orientation-consent/01-affirmative-consent-principles.md`
-- `content/modules/01-orientation-consent/02-ongoing-communication-checkins.md`
+- `modules/01-orientation-consent/01-affirmative-consent-principles.md`
+- `modules/01-orientation-consent/02-ongoing-communication-checkins.md`
 
 ### Expected CI Validation Results:
 
@@ -27,14 +27,14 @@ jobs:
       - name: Validate 01-orientation-consent
         if: github.ref != 'main'
         run: |
-          if [ -d content/modules/01-orientation-consent ]; then
+          if [ -d modules/01-orientation-consent ]; then
             python3 scripts/validation/validate_structure.py 01
           fi
 
       - name: Validate 02-session-techniques
         if: github.ref != 'main'
         run: |
-          if [ -d content/modules/02-session-techniques ]; then
+          if [ -d modules/02-session-techniques ]; then
             python3 scripts/validation/validate_structure.py 02
           fi
 ```
@@ -93,10 +93,10 @@ jobs:
 ```bash
 # Run validation locally before pushing
 cd /path/to/kink-plans
-python3 scripts/validation/validate_structure.py --modules-dir content/modules --modules 01 02 03
+python3 scripts/validation/validate_structure.py --modules-dir modules --modules 01 02 03
 
 # Expected output:
-# Validating modules in: content/modules
+# Validating modules in: modules
 # 🔍 01-orientation-consent: ✅ PASS (7 files, 0 errors)
 # 🔍 02-session-techniques: ✅ PASS (5 files, 0 errors)
 # 🔍 03-special-populations: ✅ PASS (3 files, 0 errors)
