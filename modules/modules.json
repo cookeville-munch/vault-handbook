@@ -1,0 +1,208 @@
+{
+  "modules": {
+    "01-orientation-consent": {
+      "level": "Foundational",
+      "title": "Understanding Affirmative Consent in Kink and BDSM Contexts",
+      "word_count": 939,
+      "section_count": 7,
+      "complexity_score": 6.57,
+      "module_references": [
+        "02-ongoing-communication-checkins",
+        "03-power-exchange-negotiation-framework",
+        "04-safety-protocols"
+      ],
+      "complexity_rank": "simple"
+    },
+    "02-session-techniques": {
+      "level": "Foundational",
+      "title": "01-impact-play-fundamentals",
+      "word_count": 2414,
+      "section_count": 8,
+      "complexity_score": 19.31,
+      "module_references": [
+        "01-orientation-consent",
+        "04-advanced-topics"
+      ],
+      "complexity_rank": "simple"
+    },
+    "03-special-populations": {
+      "level": "Intermediate",
+      "title": "Special Populations: Inclusive Kink Education",
+      "word_count": 1374,
+      "section_count": 13,
+      "complexity_score": 17.86,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "04-advanced-topics": {
+      "level": "Advanced",
+      "title": "Advanced Topics Module 1: Rope Suspension Engineering Principles",
+      "word_count": 1035,
+      "section_count": 10,
+      "complexity_score": 10.35,
+      "module_references": [
+        "01-orientation-consent",
+        "02-session-techniques"
+      ],
+      "complexity_rank": "simple"
+    },
+    "05-assessment-evaluation": {
+      "level": "Intermediate",
+      "title": "Assessment & Evaluation Framework",
+      "word_count": 1251,
+      "section_count": 7,
+      "complexity_score": 8.76,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "06-digital-fetish-tools-technology-safety": {
+      "level": "Intermediate",
+      "title": "Advanced Topics Module 5: Digital Fetish Tools & Technology Safety",
+      "word_count": 1869,
+      "section_count": 10,
+      "complexity_score": 18.69,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "07-online-kink-community-moderation-safety": {
+      "level": "Intermediate",
+      "title": "Advanced Topics Module 6: Online Kink Community Moderation & Safety Frameworks",
+      "word_count": 1986,
+      "section_count": 10,
+      "complexity_score": 19.86,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "08-financial-accessibility-economic-justice-in-education": {
+      "level": "Foundational",
+      "title": "Advanced Topics Module 7: Financial Accessibility & Economic Inclusion in Kink Education",
+      "word_count": 1527,
+      "section_count": 9,
+      "complexity_score": 13.74,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "09-aging-elder-lifespan-education": {
+      "level": "Foundational",
+      "title": "Advanced Topics Module 8: Aging, Eldership & Lifespan Kink Education",
+      "word_count": 1478,
+      "section_count": 11,
+      "complexity_score": 16.26,
+      "module_references": [
+        "01-orientation-consent"
+      ],
+      "complexity_rank": "simple"
+    },
+    "10-electrical-play": {
+      "level": "Advanced",
+      "title": "Electrical Play",
+      "word_count": 600,
+      "section_count": 9,
+      "complexity_score": 5.4,
+      "module_references": [],
+      "complexity_rank": "simple"
+    }
+  },
+  "recommendations": {
+    "01-orientation-consent": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 0.0
+    },
+    "02-session-techniques": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "03-special-populations": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "04-advanced-topics": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "05-assessment-evaluation": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "06-digital-fetish-tools-technology-safety": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "07-online-kink-community-moderation-safety": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "08-financial-accessibility-economic-justice-in-education": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "09-aging-elder-lifespan-education": {
+      "next_module": {
+        "module": "10-electrical-play",
+        "title": "Electrical Play",
+        "level": "Advanced",
+        "complexity": 5.4
+      },
+      "prerequisites_met": 1.0
+    },
+    "10-electrical-play": {
+      "next_module": {
+        "module": "01-orientation-consent",
+        "title": "Understanding Affirmative Consent in Kink and BDSM Contexts",
+        "level": "Foundational",
+        "complexity": 6.57
+      },
+      "prerequisites_met": 1.0
+    }
+  }
+}

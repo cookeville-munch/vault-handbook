@@ -4,6 +4,8 @@ title: Electrical Play
 
 # Electrical Play
 
+**Level: Advanced** | **Module: 10-electrical-play** | **Prerequisites: 01-orientation-consent, 02-session-techniques**
+
 Electrical Play introduces the safe and consensual use of electricity in kink scenarios. It covers device types, physiological effects, risk mitigation, and scene planning to enable practitioners to explore electro‑stimulation responsibly.
 
 ## Overview
