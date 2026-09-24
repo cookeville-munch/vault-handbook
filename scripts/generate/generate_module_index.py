@@ -172,7 +172,7 @@ def generate_dependency_matrix(modules_info):
 
 
 def generate_modules_json(modules_info, output_path):
-    """Generate a comprehensive JSON metadata index of all modules."""
+    """Generate a comprehensive JSON metadata index of all modules with progress tracking."""
     output = Path(output_path)
     output.parent.mkdir(parents=True, exist_ok=True)
 
@@ -204,14 +204,54 @@ def generate_modules_json(modules_info, output_path):
     # Sort ready modules by complexity (simpler first)
     ready_list = sorted(ready, key=lambda m: modules_info[m]['complexity_score'])
 
+    # Build progress tracking structure
+    progress = {
+        'completed_modules': [],
+        'last_accessed': None,
+        'study_streak': 0,
+        'total_modules_completed': 0,
+        'completion_percentage': 0.0,
+        'unlocked_modules': [],
+        'blocked_modules': []
+    }
+
+    # Compute unlocked modules based on empty completed set
+    unlocked = []
+    blocked = []
+    for mod_name in sorted(all_modules):
+        refs = modules_info[mod_name]['module_references']
+        unmet = [r for r in refs if r in all_modules and r not in progress['completed_modules']]
+        if not unmet:
+            unlocked.append(mod_name)
+        else:
+            blocked.append({
+                'module': mod_name,
+                'unmet_prerequisites': unmet
+            })
+
+    progress['unlocked_modules'] = unlocked
+    progress['blocked_modules'] = blocked
+
     json_data = {
         'modules': {},
-        'recommendations': {}
+        'recommendations': {},
+        'progress': progress,
+        'generated': datetime.now().isoformat()
     }
 
     for mod_name in sorted(modules_info.keys()):
         info = modules_info[mod_name]
         refs = info['module_references']
+
+        # Compute what's unlocked if this module is completed
+        next_unlocked = []
+        for candidate in all_modules:
+            if candidate == mod_name or candidate in progress['completed_modules']:
+                continue
+            candidate_refs = modules_info[candidate]['module_references']
+            candidate_met = [r for r in candidate_refs if r in progress['completed_modules'] or r not in all_modules]
+            if len(candidate_met) == len(candidate_refs):
+                next_unlocked.append(candidate)
 
         json_data['modules'][mod_name] = {
             'level': info['level'],
@@ -221,6 +261,7 @@ def generate_modules_json(modules_info, output_path):
             'complexity_score': info['complexity_score'],
             'module_references': refs,
             'complexity_rank': 'simple' if info['complexity_score'] < 50 else ('medium' if info['complexity_score'] < 200 else 'complex'),
+            'next_unlocked': next_unlocked
         }
 
         # Determine what to learn next
@@ -238,7 +279,8 @@ def generate_modules_json(modules_info, output_path):
 
         json_data['recommendations'][mod_name] = {
             'next_module': next_recs[0] if next_recs else None,
-            'prerequisites_met': len([r for r in refs if r in ready]) / max(len(refs), 1) if refs else 1.0
+            'prerequisites_met': len([r for r in refs if r in ready]) / max(len(refs), 1) if refs else 1.0,
+            'next_unlocked': next_unlocked[:3]
         }
 
     with open(output, 'w', encoding='utf-8') as f:

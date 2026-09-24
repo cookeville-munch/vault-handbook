@@ -1,0 +1,195 @@
+{
+  "generated": "2026-09-24T08:43:29.150442",
+  "total_modules": 10,
+  "trends": [
+    {
+      "module": "10-electrical-play",
+      "word_count": 600,
+      "section_count": 9,
+      "sections": [
+        "Overview",
+        "Key Terms",
+        "Related Modules",
+        "Practice Examples",
+        "Common Challenges",
+        "Learning Objectives",
+        "Quick Reference",
+        "Further Exploration",
+        "References"
+      ],
+      "complexity_score": 5.4,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "01-orientation-consent",
+      "word_count": 939,
+      "section_count": 7,
+      "sections": [
+        "Learning Objectives",
+        "Key Takeaways",
+        "The Foundation of Ethical Play",
+        "The Three Core Components",
+        "Practical Application Exercise",
+        "Quick Quiz",
+        "See Also"
+      ],
+      "complexity_score": 6.57,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "05-assessment-evaluation",
+      "word_count": 1251,
+      "section_count": 7,
+      "sections": [
+        "Learning Objectives",
+        "Key Takeaways",
+        "Learning Outcome Domains",
+        "Assessment Instruments & Protocols",
+        "Remediation & Support Protocols",
+        "Data Collection & Program Improvement",
+        "See Also"
+      ],
+      "complexity_score": 8.76,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "04-advanced-topics",
+      "word_count": 1035,
+      "section_count": 10,
+      "sections": [
+        "Learning Objectives",
+        "Key Takeaways",
+        "1. Foundational Engineering Concepts",
+        "2. Hardware Engineering & Validation",
+        "3. Suspension System Design Workshops",
+        "4. Practical Engineering Exercises",
+        "5. Specialized Suspension Configurations",
+        "6. Safety Certification Workflow",
+        "7. Advanced Workshop Implementation",
+        "See Also"
+      ],
+      "complexity_score": 10.35,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "08-financial-accessibility-economic-justice-in-education",
+      "word_count": 1527,
+      "section_count": 9,
+      "sections": [
+        "Chapter 1: Equity-Centered Education Funding Models",
+        "Chapter 2: Accessibility in Educational Delivery",
+        "Chapter 3: Barrier Removal & Inclusion Strategies",
+        "Chapter 3: Sustainable Economic Models",
+        "Chapter 4: Policy & Advocacy Frameworks",
+        "Chapter 4: Community Accountability & Transparency",
+        "Learning Objectives",
+        "Key Takeaways",
+        "See Also"
+      ],
+      "complexity_score": 13.74,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "09-aging-elder-lifespan-education",
+      "word_count": 1478,
+      "section_count": 11,
+      "sections": [
+        "Chapter 1: Biopsychosocial Aspects of Lifelong Sexual Wellbeing",
+        "Chapter 2: Geriatric-Specific Practice Adaptations",
+        "Chapter 3: Intergenerational Knowledge Transfer",
+        "Chapter 4: Elder-Centered Community Design",
+        "Chapter 5: Sustainability of Lifelong Kink Participation",
+        "Chapter 6: Cultural Perspectives on Eldership in Kink Communities",
+        "Chapter 7: Evaluation & Legacy Measurement",
+        "Chapter 8: Ethical Considerations in Elder Kink Practice",
+        "Learning Objectives",
+        "Key Takeaways",
+        "See Also"
+      ],
+      "complexity_score": 16.26,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "03-special-populations",
+      "word_count": 1374,
+      "section_count": 13,
+      "sections": [
+        "Overview",
+        "Learning Objectives",
+        "Key Takeaways",
+        "Visual Learning Pathways",
+        "Enhanced Neurodivergent Practices",
+        "Disability-Inclusive Practices Expansion",
+        "Aging & Lifespan Integration",
+        "Cultural Humility & Intersectionality Tools",
+        "Structured Skill Development Pathways",
+        "Error Correction & Quality Systems",
+        "Community Accountability Enhancements",
+        "Implementation Status",
+        "See Also"
+      ],
+      "complexity_score": 17.86,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "06-digital-fetish-tools-technology-safety",
+      "word_count": 1869,
+      "section_count": 10,
+      "sections": [
+        "Chapter 1: Extended Reality (XR) Safety Framework",
+        "Chapter 2: Connected Device Ecosystem Security",
+        "Chapter 3: Artificial Intelligence & Machine Learning Safety",
+        "Chapter 4: Digital Identity & Privacy Preservation",
+        "Chapter 5: Community Technology Governance",
+        "Chapter 6: Education & Skill Development",
+        "Learning Objectives",
+        "Key Takeaways",
+        "Appendices",
+        "See Also"
+      ],
+      "complexity_score": 18.69,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "02-session-techniques",
+      "word_count": 2414,
+      "section_count": 8,
+      "sections": [
+        "Equipment Inspection & Safety Zone Quick-Reference:",
+        "Learning Objectives",
+        "Key Takeaways",
+        "Interactive Decision Support Tool",
+        "Quick Check Knowledge Verification",
+        "Error Correction Integration",
+        "Instructor Role Enhancement",
+        "See Also"
+      ],
+      "complexity_score": 19.31,
+      "complexity_tier": "simple"
+    },
+    {
+      "module": "07-online-kink-community-moderation-safety",
+      "word_count": 1986,
+      "section_count": 10,
+      "sections": [
+        "Chapter 1: Platform Governance Architecture",
+        "Chapter 2: Safety-First Content Moderation",
+        "Chapter 3: Community Health & Wellbeing Systems",
+        "Chapter 4: Technical Infrastructure for Safety",
+        "Chapter 5: Education & Capacity Building",
+        "Chapter 6: Evaluation & Continuous Improvement",
+        "Learning Objectives",
+        "Key Takeaways",
+        "Appendices",
+        "See Also"
+      ],
+      "complexity_score": 19.86,
+      "complexity_tier": "simple"
+    }
+  ],
+  "summary": {
+    "avg_complexity": 13.68,
+    "max_complexity": 19.86,
+    "min_complexity": 5.4
+  }
+}

@@ -11,7 +11,10 @@
         "03-power-exchange-negotiation-framework",
         "04-safety-protocols"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "10-electrical-play"
+      ]
     },
     "02-session-techniques": {
       "level": "Foundational",
@@ -23,7 +26,11 @@
         "01-orientation-consent",
         "04-advanced-topics"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "03-special-populations": {
       "level": "Intermediate",
@@ -34,7 +41,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "04-advanced-topics": {
       "level": "Advanced",
@@ -46,7 +57,11 @@
         "01-orientation-consent",
         "02-session-techniques"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "05-assessment-evaluation": {
       "level": "Intermediate",
@@ -57,7 +72,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "06-digital-fetish-tools-technology-safety": {
       "level": "Intermediate",
@@ -68,7 +87,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "07-online-kink-community-moderation-safety": {
       "level": "Intermediate",
@@ -79,7 +102,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "08-financial-accessibility-economic-justice-in-education": {
       "level": "Foundational",
@@ -90,7 +117,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "09-aging-elder-lifespan-education": {
       "level": "Foundational",
@@ -101,7 +132,11 @@
       "module_references": [
         "01-orientation-consent"
       ],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "10-electrical-play": {
       "level": "Advanced",
@@ -110,7 +145,10 @@
       "section_count": 9,
       "complexity_score": 5.4,
       "module_references": [],
-      "complexity_rank": "simple"
+      "complexity_rank": "simple",
+      "next_unlocked": [
+        "01-orientation-consent"
+      ]
     }
   },
   "recommendations": {
@@ -121,7 +159,10 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 0.0
+      "prerequisites_met": 0.0,
+      "next_unlocked": [
+        "10-electrical-play"
+      ]
     },
     "02-session-techniques": {
       "next_module": {
@@ -130,7 +171,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "03-special-populations": {
       "next_module": {
@@ -139,7 +184,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "04-advanced-topics": {
       "next_module": {
@@ -148,7 +197,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "05-assessment-evaluation": {
       "next_module": {
@@ -157,7 +210,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "06-digital-fetish-tools-technology-safety": {
       "next_module": {
@@ -166,7 +223,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "07-online-kink-community-moderation-safety": {
       "next_module": {
@@ -175,7 +236,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "08-financial-accessibility-economic-justice-in-education": {
       "next_module": {
@@ -184,7 +249,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "09-aging-elder-lifespan-education": {
       "next_module": {
@@ -193,7 +262,11 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent",
+        "10-electrical-play"
+      ]
     },
     "10-electrical-play": {
       "next_module": {
@@ -202,7 +275,74 @@
         "level": "Foundational",
         "complexity": 6.57
       },
-      "prerequisites_met": 1.0
+      "prerequisites_met": 1.0,
+      "next_unlocked": [
+        "01-orientation-consent"
+      ]
     }
-  }
+  },
+  "progress": {
+    "completed_modules": [],
+    "last_accessed": null,
+    "study_streak": 0,
+    "total_modules_completed": 0,
+    "completion_percentage": 0.0,
+    "unlocked_modules": [
+      "01-orientation-consent",
+      "10-electrical-play"
+    ],
+    "blocked_modules": [
+      {
+        "module": "02-session-techniques",
+        "unmet_prerequisites": [
+          "01-orientation-consent",
+          "04-advanced-topics"
+        ]
+      },
+      {
+        "module": "03-special-populations",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      },
+      {
+        "module": "04-advanced-topics",
+        "unmet_prerequisites": [
+          "01-orientation-consent",
+          "02-session-techniques"
+        ]
+      },
+      {
+        "module": "05-assessment-evaluation",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      },
+      {
+        "module": "06-digital-fetish-tools-technology-safety",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      },
+      {
+        "module": "07-online-kink-community-moderation-safety",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      },
+      {
+        "module": "08-financial-accessibility-economic-justice-in-education",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      },
+      {
+        "module": "09-aging-elder-lifespan-education",
+        "unmet_prerequisites": [
+          "01-orientation-consent"
+        ]
+      }
+    ]
+  },
+  "generated": "2026-09-24T08:40:00.411922"
 }

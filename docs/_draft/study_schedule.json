@@ -1,0 +1,95 @@
+{
+  "generated": "2026-09-24T08:43:35.268257",
+  "total_weeks": 4,
+  "total_modules": 10,
+  "schedule": [
+    {
+      "week": 1,
+      "date_range": "Week 1",
+      "modules": [
+        {
+          "id": "10-electrical-play",
+          "title": "Electrical Play",
+          "level": "Advanced",
+          "estimated_hours": 2.7
+        },
+        {
+          "id": "01-orientation-consent",
+          "title": "Understanding Affirmative Consent in Kink and BDSM Contexts",
+          "level": "Foundational",
+          "estimated_hours": 3.3
+        },
+        {
+          "id": "05-assessment-evaluation",
+          "title": "Assessment & Evaluation Framework",
+          "level": "Intermediate",
+          "estimated_hours": 4.4
+        }
+      ],
+      "total_estimated_hours": 10.4
+    },
+    {
+      "week": 2,
+      "date_range": "Week 2",
+      "modules": [
+        {
+          "id": "04-advanced-topics",
+          "title": "Advanced Topics Module 1: Rope Suspension Engineering Principles",
+          "level": "Advanced",
+          "estimated_hours": 5.2
+        },
+        {
+          "id": "08-financial-accessibility-economic-justice-in-education",
+          "title": "Advanced Topics Module 7: Financial Accessibility & Economic Inclusion in Kink Education",
+          "level": "Foundational",
+          "estimated_hours": 6.9
+        },
+        {
+          "id": "09-aging-elder-lifespan-education",
+          "title": "Advanced Topics Module 8: Aging, Eldership & Lifespan Kink Education",
+          "level": "Foundational",
+          "estimated_hours": 8.1
+        }
+      ],
+      "total_estimated_hours": 20.2
+    },
+    {
+      "week": 3,
+      "date_range": "Week 3",
+      "modules": [
+        {
+          "id": "03-special-populations",
+          "title": "Special Populations: Inclusive Kink Education",
+          "level": "Intermediate",
+          "estimated_hours": 8.9
+        },
+        {
+          "id": "06-digital-fetish-tools-technology-safety",
+          "title": "Advanced Topics Module 5: Digital Fetish Tools & Technology Safety",
+          "level": "Intermediate",
+          "estimated_hours": 9.3
+        },
+        {
+          "id": "02-session-techniques",
+          "title": "02-session-techniques",
+          "level": "Foundational",
+          "estimated_hours": 9.7
+        }
+      ],
+      "total_estimated_hours": 27.9
+    },
+    {
+      "week": 4,
+      "date_range": "Week 4",
+      "modules": [
+        {
+          "id": "07-online-kink-community-moderation-safety",
+          "title": "Advanced Topics Module 6: Online Kink Community Moderation & Safety Frameworks",
+          "level": "Intermediate",
+          "estimated_hours": 9.9
+        }
+      ],
+      "total_estimated_hours": 9.9
+    }
+  ]
+}
