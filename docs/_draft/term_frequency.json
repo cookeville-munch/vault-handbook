@@ -1,13 +1,13 @@
 {
-  "generated": "2026-09-24T08:43:35.812838",
+  "generated": "2026-09-25T08:47:08.380266",
   "total_unique_terms": 703,
   "term_frequency_distribution": [
     {
       "term": "active listening",
       "count": 2,
       "modules": [
-        "01-orientation-consent",
-        "05-assessment-evaluation"
+        "05-assessment-evaluation",
+        "01-orientation-consent"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781
@@ -66,8 +66,8 @@
       "term": "cultural sensitivity",
       "count": 2,
       "modules": [
-        "community-resources",
-        "instructor-resources"
+        "instructor-resources",
+        "community-resources"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781
@@ -106,8 +106,8 @@
       "term": "ethical decision-making",
       "count": 2,
       "modules": [
-        "04-advanced-topics",
-        "05-assessment-evaluation"
+        "05-assessment-evaluation",
+        "04-advanced-topics"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781
@@ -6364,8 +6364,8 @@
       "term": "active listening",
       "count": 2,
       "modules": [
-        "01-orientation-consent",
-        "05-assessment-evaluation"
+        "05-assessment-evaluation",
+        "01-orientation-consent"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781
@@ -6424,8 +6424,8 @@
       "term": "cultural sensitivity",
       "count": 2,
       "modules": [
-        "community-resources",
-        "instructor-resources"
+        "instructor-resources",
+        "community-resources"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781
@@ -6464,8 +6464,8 @@
       "term": "ethical decision-making",
       "count": 2,
       "modules": [
-        "04-advanced-topics",
-        "05-assessment-evaluation"
+        "05-assessment-evaluation",
+        "04-advanced-topics"
       ],
       "module_count": 2,
       "coverage": 0.013245033112582781

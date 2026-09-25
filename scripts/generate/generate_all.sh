@@ -16,26 +16,26 @@ echo ""
 # Create output directories
 mkdir -p docs/index docs/glossary docs/dependencies docs/_draft modules
 
+# Generate all files metadata
+echo "[1/6] Generating all files metadata..."
+python3 scripts/generate/generate_all_files_metadata.py
+
+# Generate unified discovery outputs
+echo "[2/6] Running unified discovery pipeline..."
+python3 scripts/generate/generate_unified_discovery.py
+
 # Generate dependency graph
-echo "[1/7] Generating dependency graph..."
+echo "[3/6] Generating dependency graph..."
 python3 scripts/generate/generate_dependency_graph.py \
-    --output docs/dependencies/generated_dependency_graph.md \
-    --json-output modules/modules.json
-
-# Generate module index (TOC, glossary, matrix, JSON)
-echo "[2/7] Generating module index..."
-python3 scripts/generate/generate_module_index.py
-
-# Generate TOC via existing generator
-echo "[3/7] Generating module table of contents..."
-python3 scripts/generate/generate_module_toc.py --output docs/index/generated_module_toc.md
+    --modules-json modules/modules.json \
+    --output docs/dependencies/generated_dependency_graph.md
 
 # Generate changelog
-echo "[4/7] Generating changelog..."
+echo "[4/6] Generating changelog..."
 bash scripts/generate/generate_changelog.sh docs/_draft/CHANGELOG.md
 
 # Generate automation tools
-echo "[5/7] Generating automation tools..."
+echo "[5/6] Generating automation tools..."
 python3 scripts/generate/generate_automation_tools.py
 
 # Validate all modules

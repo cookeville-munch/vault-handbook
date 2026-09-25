@@ -23,6 +23,7 @@ flowchart TD
     10-electrical-play[["10\nelectrical\nplay\nAdvanced"]]
     style 10-electrical-play fill:#F44336,color:white
 
+    02-session-techniques --> 01-orientation-consent
     01-orientation-consent --> 02-session-techniques
     04-advanced-topics --> 02-session-techniques
     01-orientation-consent --> 03-special-populations

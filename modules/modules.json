@@ -3,13 +3,11 @@
     "01-orientation-consent": {
       "level": "Foundational",
       "title": "Understanding Affirmative Consent in Kink and BDSM Contexts",
-      "word_count": 939,
-      "section_count": 7,
-      "complexity_score": 6.57,
+      "word_count": 10745,
+      "section_count": 62,
+      "complexity_score": 15.26,
       "module_references": [
-        "02-ongoing-communication-checkins",
-        "03-power-exchange-negotiation-framework",
-        "04-safety-protocols"
+        "02-session-techniques"
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
@@ -19,62 +17,58 @@
     "02-session-techniques": {
       "level": "Foundational",
       "title": "01-impact-play-fundamentals",
-      "word_count": 2414,
-      "section_count": 8,
-      "complexity_score": 19.31,
+      "word_count": 6888,
+      "section_count": 50,
+      "complexity_score": 13.91,
       "module_references": [
         "01-orientation-consent",
         "04-advanced-topics"
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
     "03-special-populations": {
       "level": "Intermediate",
       "title": "Special Populations: Inclusive Kink Education",
-      "word_count": 1374,
-      "section_count": 13,
-      "complexity_score": 17.86,
+      "word_count": 3890,
+      "section_count": 36,
+      "complexity_score": 9.56,
       "module_references": [
         "01-orientation-consent"
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
     "04-advanced-topics": {
       "level": "Advanced",
       "title": "Advanced Topics Module 1: Rope Suspension Engineering Principles",
-      "word_count": 1035,
-      "section_count": 10,
-      "complexity_score": 10.35,
+      "word_count": 2765,
+      "section_count": 35,
+      "complexity_score": 6.43,
       "module_references": [
         "01-orientation-consent",
         "02-session-techniques"
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
     "05-assessment-evaluation": {
       "level": "Intermediate",
       "title": "Assessment & Evaluation Framework",
-      "word_count": 1251,
-      "section_count": 7,
-      "complexity_score": 8.76,
+      "word_count": 2909,
+      "section_count": 15,
+      "complexity_score": 11.01,
       "module_references": [
         "01-orientation-consent"
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -89,7 +83,6 @@
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -104,7 +97,6 @@
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -119,7 +111,6 @@
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -134,7 +125,6 @@
       ],
       "complexity_rank": "simple",
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -146,9 +136,7 @@
       "complexity_score": 5.4,
       "module_references": [],
       "complexity_rank": "simple",
-      "next_unlocked": [
-        "01-orientation-consent"
-      ]
+      "next_unlocked": []
     }
   },
   "recommendations": {
@@ -159,7 +147,7 @@
         "level": "Advanced",
         "complexity": 5.4
       },
-      "prerequisites_met": 0.0,
+      "prerequisites_met": 1.0,
       "next_unlocked": [
         "10-electrical-play"
       ]
@@ -173,7 +161,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -186,7 +173,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -199,7 +185,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -212,7 +197,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -225,7 +209,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -238,7 +221,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -251,7 +233,6 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
@@ -264,21 +245,18 @@
       },
       "prerequisites_met": 1.0,
       "next_unlocked": [
-        "01-orientation-consent",
         "10-electrical-play"
       ]
     },
     "10-electrical-play": {
       "next_module": {
-        "module": "01-orientation-consent",
-        "title": "Understanding Affirmative Consent in Kink and BDSM Contexts",
-        "level": "Foundational",
-        "complexity": 6.57
+        "module": "04-advanced-topics",
+        "title": "Advanced Topics Module 1: Rope Suspension Engineering Principles",
+        "level": "Advanced",
+        "complexity": 6.43
       },
       "prerequisites_met": 1.0,
-      "next_unlocked": [
-        "01-orientation-consent"
-      ]
+      "next_unlocked": []
     }
   },
   "progress": {
@@ -288,10 +266,15 @@
     "total_modules_completed": 0,
     "completion_percentage": 0.0,
     "unlocked_modules": [
-      "01-orientation-consent",
       "10-electrical-play"
     ],
     "blocked_modules": [
+      {
+        "module": "01-orientation-consent",
+        "unmet_prerequisites": [
+          "02-session-techniques"
+        ]
+      },
       {
         "module": "02-session-techniques",
         "unmet_prerequisites": [
@@ -344,5 +327,5 @@
       }
     ]
   },
-  "generated": "2026-09-24T08:40:00.411922"
+  "generated": "2026-09-25T08:46:48.107202"
 }

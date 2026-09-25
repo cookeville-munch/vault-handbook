@@ -1,7 +1,8 @@
 # Changelog
 
-Generated on 2026-09-24 13:40:00 UTC from commits since 2026-01-01
+Generated on 2026-09-25 13:46:48 UTC from commits since 2026-01-01
 
+* Changes: feat: add 10 automation tools for handbook improvement
 * Changes: feat: add automated generators for dependency graph, module index, complexity scoring, and recommendations
 * Changes: cleanup: restructure repository for unified module location
 * Changes: feat: apply structural improvements to all modules, add validation script, reorganize README
